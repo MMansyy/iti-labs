@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<body style="text-align: center; font-family: sans-serif;">
+    <h1 style="color: red;">BIG SALE!</h1>
+
+    <div id="content">
+        <p>Buy now!</p><br><br>
+        <p>50% OFF!</p><br><br>
+        <p>Best Prices!</p><br><br>
+        <p>Limited Time!</p><br><br>
+        <p>Don't miss out!</p><br><br>
+        <p>Scroll for more...</p><br><br>
+        <p>Offer ends soon!</p><br><br>
+        <p>Click here!</p><br><br>
+        <p>Exclusive Deal!</p><br><br>
+        <p>Thank you for viewing!</p>
+    </div>
+
+    <script>
+        setInterval(function () {
+            window.scrollBy(0, 2);
+
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+                window.scrollTo(0, 0);
+            }
+        }, 50);
+    </script>
+</body>
+
+</html>

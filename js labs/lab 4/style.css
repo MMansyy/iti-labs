@@ -1,0 +1,371 @@
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.images {
+    width: 400px;
+    height: auto;
+}
+
+.image-desc {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+
+.button-wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.third-assignment .content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.third-assignment .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.third-assignment #task-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.third-assignment #task-input:focus {
+    border-color: #09C;
+}
+
+.third-assignment #add-task-btn {
+    padding: 10px 20px;
+    background-color: #09C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.third-assignment #add-task-btn:hover {
+    background-color: #005f7f;
+}
+
+.third-assignment ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.third-assignment ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s;
+}
+
+.third-assignment ul li:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    scale: 1.05;
+}
+
+.third-assignment ul li p {
+    margin: 0 10px;
+}
+
+.third-assignment .spacer {
+    display: flex;
+    gap: 8px;
+}
+
+.third-assignment .spacer button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    transition: opacity 0.3s;
+}
+
+.third-assignment .spacer button:hover {
+    opacity: 0.8;
+}
+
+.done-btn {
+    background-color: #28a745;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.task-completed p {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.preview-section {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.text-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    min-height: 100px;
+}
+
+#target-text {
+    font-size: 16px;
+    margin: 0;
+}
+
+.controls-section {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.control-card {
+    flex-grow: 1;
+    flex-basis: 200px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    min-width: 200px;
+}
+
+.control-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #09C;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.control-card label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.control-card label:hover {
+    color: #09C;
+}
+
+
+
+.fifth-assignment {
+    padding: 20px 0;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.assignment-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 450px;
+}
+
+.assignment-card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+#key-detector-input {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition: all 0.3s;
+}
+
+#key-detector-input:focus {
+    border-color: #09C;
+    outline: none;
+}
+
+.key-display-area {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background: #f4f7f6;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.key-info {
+    text-align: center;
+}
+
+.key-info .label {
+    display: block;
+    font-size: 12px;
+    color: #777;
+}
+
+.key-info .value {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #09C;
+}
+
+.modifiers-status {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.restricted-area {
+    height: 150px;
+    background-color: #ffebeb;
+    border: 2px dashed #ff4d4d;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s;
+    cursor: not-allowed;
+}
+
+.restricted-area:hover {
+    background-color: #ffd1d1;
+}
+
+.restricted-area p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #c0392b;
+    margin: 0;
+}
+
+.form-wrapper {
+    min-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-group input:focus,
+select:focus {
+    border: 1px solid #09C;
+    outline: none;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+}
+
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #09C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.error-msg {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.hidden {
+    display: none;
+}
+

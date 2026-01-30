@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="" id="main">
+        <section class="fisrt-assignment container">
+            <div id="f-assign"></div>
+        </section>
+        <section class="second-assignment">
+            <div class="container" id="container">
+                <img src="images/Screenshot (165).png" class="images" alt="">
+                <p class="image-desc"></p>
+                <div class="button-wrapper">
+                    <button class="btn" id="prev-btn">Previous</button>
+                    <button class="btn" id="next-btn">Next</button>
+                </div>
+            </div>
+        </section>
+        <section class="third-assignment container">
+            <div class="content">
+                <div class="header">
+                    <input type="text" id="task-input" placeholder="Enter a new task...">
+                    <button id="add-task-btn">Add Task</button>
+                </div>
+                <ul id="task-list">
+
+                </ul>
+            </div>
+        </section>
+        <section class="fourth-assignment container">
+            <div class="preview-section">
+                <h2>Text Preview</h2>
+                <div class="text-box">
+                    <p id="target-text">
+                        Here is a paragraph of text that has various alignment characteristics that can be changed
+                        dynamically.
+                        Click the radio buttons below to view combinations of text style settings.
+                    </p>
+                </div>
+            </div>
+            <div class="controls-section">
+                <div class="control-card">
+                    <h3>Font Family</h3>
+                    <label><input type="radio" name="fontFamily" value="Arial" checked> Arial</label>
+                    <label><input type="radio" name="fontFamily" value="Courier New"> Courier</label>
+                    <label><input type="radio" name="fontFamily" value="Georgia"> Georgia</label>
+                    <label><input type="radio" name="fontFamily" value="Impact"> Impact</label>
+                    <label><input type="radio" name="fontFamily" value="Times New Roman"> Times</label>
+                    <label><input type="radio" name="fontFamily" value="Verdana"> Verdana</label>
+                </div>
+                <div class="control-card">
+                    <h3>Text Align</h3>
+                    <label><input type="radio" name="textAlign" value="left" checked> Left</label>
+                    <label><input type="radio" name="textAlign" value="center"> Center</label>
+                    <label><input type="radio" name="textAlign" value="right"> Right</label>
+                    <label><input type="radio" name="textAlign" value="justify"> Justify</label>
+                </div>
+                <div class="control-card">
+                    <h3>Line Height</h3>
+                    <label><input type="radio" name="lineHeight" value="normal" checked> Normal</label>
+                    <label><input type="radio" name="lineHeight" value="10px"> 10px</label>
+                    <label><input type="radio" name="lineHeight" value="15px"> 15px</label>
+                    <label><input type="radio" name="lineHeight" value="1.5"> 1.5</label>
+                </div>
+                <div class="control-card">
+                    <h3>Letter Spacing</h3>
+                    <label><input type="radio" name="letterSpacing" value="normal" checked> Normal</label>
+                    <label><input type="radio" name="letterSpacing" value="-1px"> -1px</label>
+                    <label><input type="radio" name="letterSpacing" value="2px"> 2px</label>
+                    <label><input type="radio" name="letterSpacing" value="3px"> 3px</label>
+                </div>
+                <div class="control-card">
+                    <h3>Text Indent</h3>
+                    <label><input type="radio" name="textIndent" value="0px" checked> 0px</label>
+                    <label><input type="radio" name="textIndent" value="5px"> 5px</label>
+                    <label><input type="radio" name="textIndent" value="15px"> 15px</label>
+                    <label><input type="radio" name="textIndent" value="25px"> 25px</label>
+                </div>
+                <div class="control-card">
+                    <h3>Text Transform</h3>
+                    <label><input type="radio" name="textTransform" value="none" checked> None</label>
+                    <label><input type="radio" name="textTransform" value="capitalize"> Capitalize</label>
+                    <label><input type="radio" name="textTransform" value="uppercase"> Uppercase</label>
+                    <label><input type="radio" name="textTransform" value="lowercase"> Lowercase</label>
+                </div>
+                <div class="control-card">
+                    <h3>Text Decoration</h3>
+                    <label><input type="radio" name="textDecoration" value="none" checked> None</label>
+                    <label><input type="radio" name="textDecoration" value="line-through"> Line-through</label>
+                    <label><input type="radio" name="textDecoration" value="overline"> Overline</label>
+                    <label><input type="radio" name="textDecoration" value="underline"> Underline</label>
+                </div>
+            </div>
+        </section>
+        <section class="fifth-assignment container">
+            <div class="cards-wrapper">
+                <div class="assignment-card">
+                    <h3>Keyboard Detective</h3>
+                    <p>press any key:</p>
+                    <input type="text" id="key-detector-input" placeholder="Type here...">
+                    <div class="key-display-area">
+                        <div class="key-info">
+                            <span class="label">Key Code (ASCII):</span>
+                            <span class="value" id="ascii-code">-</span>
+                        </div>
+                        <div class="key-info">
+                            <span class="label">Key Name:</span>
+                            <span class="value" id="key-name">-</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="assignment-card">
+                    <h3>B.2: No Right Click Zone</h3>
+                    <div id="no-context-area" class="restricted-area">
+                        <p>Right Click me!</p>
+                        <small>Context Menu is disabled here.</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sixth-assignment container">
+            <div class="form-wrapper">
+                <h2>Registration Form</h2>
+                <form id="registration-form">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                        <p class="error-msg hidden" >
+                            Username must be at least 3 characters long.
+                        </p>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <p class="error-msg hidden">
+                            Please enter a valid email address.
+                        </p>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                        <p class="error-msg hidden">
+                            Password is required.
+                        </p>
+                    </div>
+                    <div class="form-group">
+                        <label for="rePassword">rePassword:</label>
+                        <input type="password" id="rePassword" name="rePassword" required>
+                        <p class="error-msg hidden">
+                            rePassword must match the Password.
+                        </p>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <select id="city" name="city" required>
+                            <option value="">Select your city</option>
+                            <option value="new-york">sidi bishr</option>
+                            <option value="los-angeles">gleem</option>
+                            <option value="chicago">shatby</option>
+                            <option value="houston">mandra</option>
+                            <option value="miami">mamora</option>
+                        </select>
+                        <p class="error-msg hidden">
+                            Please select your city.
+                        </p>
+                    </div>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
