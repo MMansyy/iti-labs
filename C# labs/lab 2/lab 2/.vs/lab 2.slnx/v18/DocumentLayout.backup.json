@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 2\\lab 2\\lab 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|solutionrelative:lab 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 2\\lab 2\\lab 2\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|solutionrelative:lab 2\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 2\\lab 2\\lab 2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|solutionrelative:lab 2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 2\\lab 2\\lab 2\\imovable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|solutionrelative:lab 2\\imovable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 2\\lab 2\\lab 2\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|solutionrelative:lab 2\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 2\\lab 2\\lab 2\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|solutionrelative:lab 2\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 2\\lab 2\\lab 2\\manger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|solutionrelative:lab 2\\manger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 2\\lab 2\\lab 2\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|solutionrelative:lab 2\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 2\\lab 2\\lab 2\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6153A-430E-F7A6-4B51-52D2A1C821E5}|lab 2\\lab 2.csproj|solutionrelative:lab 2\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Program.cs",
+              "RelativeDocumentMoniker": "lab 2\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Program.cs*",
+              "RelativeToolTip": "lab 2\\Program.cs*",
+              "ViewState": "AgIAADIAAAAAAAAAAAAowD8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T10:03:12.064Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Account.cs",
+              "RelativeDocumentMoniker": "lab 2\\Account.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Account.cs*",
+              "RelativeToolTip": "lab 2\\Account.cs*",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAswD8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T21:25:03.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Student.cs",
+              "RelativeDocumentMoniker": "lab 2\\Student.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Student.cs",
+              "RelativeToolTip": "lab 2\\Student.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T17:54:47.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMovable.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\IMovable.cs",
+              "RelativeDocumentMoniker": "lab 2\\IMovable.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\IMovable.cs",
+              "RelativeToolTip": "lab 2\\IMovable.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwEAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T17:42:00.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Animal.cs",
+              "RelativeDocumentMoniker": "lab 2\\Animal.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Animal.cs",
+              "RelativeToolTip": "lab 2\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T17:34:18.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Shape.cs",
+              "RelativeDocumentMoniker": "lab 2\\Shape.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Shape.cs",
+              "RelativeToolTip": "lab 2\\Shape.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAmwA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T11:12:15.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Manger.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Manger.cs",
+              "RelativeDocumentMoniker": "lab 2\\Manger.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Manger.cs",
+              "RelativeToolTip": "lab 2\\Manger.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T10:37:52.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Employee.cs",
+              "RelativeDocumentMoniker": "lab 2\\Employee.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Employee.cs",
+              "RelativeToolTip": "lab 2\\Employee.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T10:31:18.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Date.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Date.cs",
+              "RelativeDocumentMoniker": "lab 2\\Date.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\lab 2\\lab 2\\lab 2\\Date.cs",
+              "RelativeToolTip": "lab 2\\Date.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T10:05:04.099Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

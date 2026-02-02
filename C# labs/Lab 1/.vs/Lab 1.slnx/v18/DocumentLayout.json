@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF24DA46-8B9C-39AA-5BA4-80DF1CD0D6A7}|Lab 1\\Lab 1.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 1\\lab 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF24DA46-8B9C-39AA-5BA4-80DF1CD0D6A7}|Lab 1\\Lab 1.csproj|solutionrelative:lab 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 1\\Lab 1\\Program.cs",
+              "RelativeDocumentMoniker": "Lab 1\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 1\\Lab 1\\Program.cs",
+              "RelativeToolTip": "Lab 1\\Program.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAA0wJoBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T10:48:08.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
