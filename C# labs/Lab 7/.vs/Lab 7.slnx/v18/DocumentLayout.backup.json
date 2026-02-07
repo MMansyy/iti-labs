@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5668BC8F-F604-4248-8E67-61D5D0F6AE03}|Lab 7.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5668BC8F-F604-4248-8E67-61D5D0F6AE03}|Lab 7.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4B8A5F9-D958-7DD0-825F-43DD70A2E127}|Lab 7.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B8A5F9-D958-7DD0-825F-43DD70A2E127}|Lab 7.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5668BC8F-F604-4248-8E67-61D5D0F6AE03}|Lab 7.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5668BC8F-F604-4248-8E67-61D5D0F6AE03}|Lab 7.csproj|C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5668BC8F-F604-4248-8E67-61D5D0F6AE03}|Lab 7.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 7\\Form1.cs*",
               "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHwAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-05T12:07:32.247Z",
               "EditorCaption": ""
@@ -39,11 +39,10 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 7\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 7\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 7\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T12:07:01.842Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-02-05T12:07:01.842Z"
             }
           ]
         }

@@ -73,57 +73,7 @@ namespace Lab_7
                 g.DrawString(revenues[i].ToString(), dataFont, brush, new PointF(columnX + 10, yPosition));
             }
             // تشارت
-            int chartX = 30;  // اليسار
-            int chartY = 120; // أعلى
-            int chartWidth = 350;
-            int chartHeight = 400;
-            // قلم أسود للمحاور
-            Pen axisPen = new Pen(Color.Black, 2);
-
-            // Y-axis
-            e.Graphics.DrawLine(axisPen, chartX, chartY, chartX, chartY + chartHeight);
-            // X-axis
-            e.Graphics.DrawLine(axisPen, chartX, chartY + chartHeight, chartX + chartWidth, chartY + chartHeight);
-
-            int maxRevenue = revenues.Max(); // 280
-            float scaleY = (float)chartHeight / maxRevenue;
-
-            int barWidth = 20;
-            int gap = 15; // المسافة بين الأعمدة
-
-            for (int i = 0; i < years.Length; i++)
-            {
-                int x = chartX + gap + i * (barWidth + gap);
-                int y = chartY + chartHeight - (int)(revenues[i] * scaleY); // من الأسفل للأعلى
-                int height = (int)(revenues[i] * scaleY);
-
-                // قلم فرشاة Hatch
-                HatchBrush brush2 = new HatchBrush(HatchStyle.ForwardDiagonal, Color.Red, Color.White);
-                e.Graphics.FillRectangle(brush2, x, y, barWidth, height);
-                e.Graphics.DrawRectangle(Pens.Black, x, y, barWidth, height); // حدود العمود
-            }
-
-            Pen linePen = new Pen(Color.Blue, 2);
-
-            for (int i = 0; i < years.Length - 1; i++)
-            {
-                int x1 = chartX + gap + i * (barWidth + gap) + barWidth / 2;
-                int y1 = chartY + chartHeight - (int)(revenues[i] * scaleY);
-
-                int x2 = chartX + gap + (i + 1) * (barWidth + gap) + barWidth / 2;
-                int y2 = chartY + chartHeight - (int)(revenues[i + 1] * scaleY);
-
-                e.Graphics.DrawLine(linePen, x1, y1, x2, y2);
-            }
-
-            Font font = new Font("Arial", 9);
-            for (int i = 0; i < years.Length; i++)
-            {
-                int x = chartX + gap + i * (barWidth + gap) + barWidth / 2 - 10;
-                int y = chartY + chartHeight + 5;
-                e.Graphics.DrawString(years[i].ToString(), font, Brushes.Black, x, y);
-            }
-
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
