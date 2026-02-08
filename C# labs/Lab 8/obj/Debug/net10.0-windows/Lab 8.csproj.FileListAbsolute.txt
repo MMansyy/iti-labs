@@ -1,0 +1,18 @@
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\bin\Debug\net10.0-windows\Lab 8.exe
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\bin\Debug\net10.0-windows\Lab 8.deps.json
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\bin\Debug\net10.0-windows\Lab 8.runtimeconfig.json
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\bin\Debug\net10.0-windows\Lab 8.dll
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\bin\Debug\net10.0-windows\Lab 8.pdb
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\obj\Debug\net10.0-windows\Lab_8.Form1.resources
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\obj\Debug\net10.0-windows\Lab_8.FormatDialog.resources
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\obj\Debug\net10.0-windows\Lab 8.csproj.GenerateResource.cache
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\obj\Debug\net10.0-windows\Lab 8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\obj\Debug\net10.0-windows\Lab 8.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\obj\Debug\net10.0-windows\Lab 8.AssemblyInfo.cs
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\obj\Debug\net10.0-windows\Lab 8.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\obj\Debug\net10.0-windows\Lab 8.sourcelink.json
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\obj\Debug\net10.0-windows\Lab 8.dll
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\obj\Debug\net10.0-windows\refint\Lab 8.dll
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\obj\Debug\net10.0-windows\Lab 8.pdb
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\obj\Debug\net10.0-windows\Lab 8.genruntimeconfig.cache
+C:\Users\Dell\Desktop\iti labs\C# labs\Lab 8\obj\Debug\net10.0-windows\ref\Lab 8.dll
