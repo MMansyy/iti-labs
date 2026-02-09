@@ -17,7 +17,7 @@ namespace Lab_7
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-             g = e.Graphics;
+            g = e.Graphics;
             // العناوين
             Font companyFont = new Font("Arial", 20, FontStyle.Bold);
             Font titleFont = new Font("Arial", 14, FontStyle.Regular);
@@ -68,12 +68,47 @@ namespace Lab_7
 
             for (int i = 0; i < years.Length; i++)
             {
-                int yPosition = tableY + (i + 1) * rowHeight + 10; 
+                int yPosition = tableY + (i + 1) * rowHeight + 10;
                 g.DrawString(years[i].ToString(), dataFont, brush, new PointF(tableX + 10, yPosition));
                 g.DrawString(revenues[i].ToString(), dataFont, brush, new PointF(columnX + 10, yPosition));
             }
             // تشارت
-            
+
+            int chartX = 50;
+            int chartY = 520;
+            int chartWidth = 300;
+            int chartHeight = 420;
+
+            g.DrawLine(pen, chartX, chartY, chartWidth + chartX, chartY);
+            g.DrawLine(pen, chartX, chartY, chartX, chartY - chartHeight);
+
+            HatchBrush barBrush = new HatchBrush(HatchStyle.BackwardDiagonal, Color.Red, Color.White);
+            Pen linePen = new Pen(Color.Blue, 2);
+
+            int barWidth = 20;
+            int gap = 10;
+
+            Point[] points = new Point[years.Length];
+            for (int i = 0; i < years.Length; i++)
+            {
+                int barHeight = (int)(revenues[i] * 1.4);
+
+                int xPos = chartX + ((i + 1) * (barWidth + gap));
+                int yPos = chartY - barHeight;
+
+                g.FillRectangle(barBrush, xPos, yPos, barWidth, barHeight);
+                g.DrawRectangle(pen, xPos, yPos, barWidth, barHeight);
+
+                g.DrawString(years[i].ToString().Substring(2), dataFont, Brushes.Black, xPos, chartY + 5);
+                g.DrawString(revenues[i].ToString(), dataFont, Brushes.Black, chartX - 40, yPos);
+
+                points[i] = new Point(xPos + (barWidth / 2), yPos);
+            }
+            if (points.Length > 0)
+            {
+                g.DrawLines(linePen, points);
+            }
+
         }
 
         private void label1_Click(object sender, EventArgs e)

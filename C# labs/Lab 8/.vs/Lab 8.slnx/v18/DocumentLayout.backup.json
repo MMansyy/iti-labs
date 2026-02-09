@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 8\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7A8D13B9-0806-B613-269A-7558DD37686A}|Lab 8.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8D13B9-0806-B613-269A-7558DD37686A}|Lab 8.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A8D13B9-0806-B613-269A-7558DD37686A}|Lab 8.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 8\\formatdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A8D13B9-0806-B613-269A-7558DD37686A}|Lab 8.csproj|solutionrelative:formatdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8D13B9-0806-B613-269A-7558DD37686A}|Lab 8.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8D13B9-0806-B613-269A-7558DD37686A}|Lab 8.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A8D13B9-0806-B613-269A-7558DD37686A}|Lab 8.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 8\\formatdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A8D13B9-0806-B613-269A-7558DD37686A}|Lab 8.csproj|solutionrelative:formatdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A8D13B9-0806-B613-269A-7558DD37686A}|Lab 8.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\lab 8\\formatdialog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormatDialog.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 8\\FormatDialog.cs",
               "RelativeDocumentMoniker": "FormatDialog.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 8\\FormatDialog.cs*",
-              "RelativeToolTip": "FormatDialog.cs*",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAADoAAAAlAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 8\\FormatDialog.cs",
+              "RelativeToolTip": "FormatDialog.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwC8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-08T14:03:37.564Z",
               "IsPinned": true,
@@ -44,13 +48,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 8\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 8\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-08T14:27:28.993Z",
               "IsPinned": true,
@@ -59,19 +63,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FormatDialog.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 8\\FormatDialog.cs",
+              "RelativeDocumentMoniker": "FormatDialog.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 8\\FormatDialog.cs [Design]",
+              "RelativeToolTip": "FormatDialog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T00:49:13.784Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FormatDialog.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 8\\FormatDialog.Designer.cs",
               "RelativeDocumentMoniker": "FormatDialog.Designer.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 8\\FormatDialog.Designer.cs",
               "RelativeToolTip": "FormatDialog.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-08T14:56:48.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Lab 8\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",

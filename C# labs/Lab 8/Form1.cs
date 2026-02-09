@@ -16,7 +16,6 @@
             if (dlg.ShowDialog() == DialogResult.OK)
             {
                 lblCompanyName.Text = dlg.NewTextValue;
-                this.Text = dlg.NewTextValue;
                 lblCompanyName.ForeColor = dlg.SelectedColor;
                 lblCompanyName.Font = new Font(dlg.SelectedFontName, dlg.SelectedFontSize);
             }
