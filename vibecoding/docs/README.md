@@ -16,16 +16,25 @@ A comprehensive learning project featuring QuickSort (recursive and iterative), 
 
 ```
 vibecoding/
-├── lab.js                 # Core sorting implementations (Node.js)
-├── lab.test.js           # Unit tests
-├── benchmark.js          # Performance benchmarking harness
-├── server.js             # Express REST API server
-├── package.json          # Node.js dependencies and scripts
-├── index.html            # Web UI (HTML)
-├── app.js                # Web UI logic (JavaScript)
-├── styles.css            # Web UI styles
-├── DOCUMENTATION.md      # Detailed algorithm documentation
-└── README.md             # This file
+├── src/                          # Source code organized by responsibility
+│   ├── algorithms/
+│   │   └── lab.js               # Core sorting implementations (QuickSort, MergeSort, HeapSort, etc.)
+│   ├── api/
+│   │   └── server.js            # Express REST API server with 4 endpoints
+│   └── web/
+│       ├── index.html           # Interactive web UI
+│       ├── app.js               # Client-side sorting implementations & UI logic
+│       └── styles.css           # Dark theme with glass-morphism design
+├── tests/
+│   └── lab.test.js              # Unit tests (9+ test cases, all passing)
+├── benchmarks/
+│   └── benchmark.js             # Performance benchmarking harness
+├── docs/
+│   ├── README.md                # This file - Complete API documentation
+│   └── DOCUMENTATION.md         # Algorithm complexity analysis & learning notes
+├── package.json                 # Node.js dependencies and npm scripts
+├── package-lock.json
+└── README.md                     # Quick start guide (root)
 ```
 
 ## Quick Start
@@ -61,11 +70,16 @@ npm run benchmark
 ### 5. Open Web UI
 ```bash
 # Option A: Open directly in browser
-# Double-click vibecoding/index.html
+# Navigate to: src/web/index.html and open in your browser
 
-# Option B: Serve with a local HTTP server
-npx http-server vibecoding -p 8080
-# Then open http://localhost:8080 in your browser
+# Option B: Serve with a local HTTP server (recommended)
+npx http-server . -p 8080
+# Then open http://localhost:8080/src/web/index.html in your browser
+
+# Option C: Access via REST API server
+# Start the API server with: npm start
+# Then open http://localhost:3000 in your browser (API health check)
+# Client-side sorting is available at src/web/index.html
 ```
 
 ## REST API Documentation
@@ -323,6 +337,36 @@ builtin           |   21.299  |   22.998
 
 ---
 
+## Documentation & Learning Resources
+
+### **For API Usage**
+👉 Start here: [REST API Documentation](#rest-api-documentation) in this file
+- Learn about all 4 endpoints
+- See request/response examples
+- Copy cURL commands for testing
+
+### **For Algorithm Learning**
+👉 See: [docs/DOCUMENTATION.md](DOCUMENTATION.md)
+- Complexity analysis (time & space)
+- Detailed explanations of each algorithm
+- Optimization techniques used
+- Performance comparisons
+
+### **For Code Deep Dives**
+👉 See: [src/algorithms/lab.js](../src/algorithms/lab.js)
+- 700+ lines with extensive teaching comments
+- Function-level documentation
+- Inline complexity notes
+- Optimization explanations
+
+### **For Implementation Details**
+- **REST API:** [src/api/server.js](../src/api/server.js) - Express routing and validation
+- **Web UI Logic:** [src/web/app.js](../src/web/app.js) - Client-side sorting and visualization
+- **Tests:** [tests/lab.test.js](../tests/lab.test.js) - Usage examples from test cases
+- **Benchmarks:** [benchmarks/benchmark.js](../benchmarks/benchmark.js) - Performance measurement patterns
+
+---
+
 ## Development & Testing
 
 ### Run Tests
@@ -361,6 +405,55 @@ Benchmarks test 5 dataset types (random, sorted, reverse, many-duplicates, nearl
 - `animateActions()` async function plays recorded actions with timing control
 - Canvas samples large arrays (>200 elements) to 200 bars for responsive animation
 - Speed slider (1–200) controls delay between action frames
+
+---
+
+## Project Organization Guide
+
+The project is organized by **responsibility** for better maintainability and scalability:
+
+### **`src/` - Source Code**
+The main application code organized into three areas:
+
+- **`src/algorithms/lab.js`**
+  - Core sorting algorithm implementations
+  - Exports: `quicksortRecursive`, `quicksortIterative`, and helper functions
+  - Includes teaching comments explaining algorithms, optimizations, and complexity
+  - **Uses:** Node.js `perf_hooks` for benchmarking
+
+- **`src/api/server.js`**
+  - Express.js REST API server
+  - 4 endpoints for sorting operations and health checks
+  - Mirrors algorithm implementations for HTTP access
+  - Includes input validation and error handling
+
+- **`src/web/`**
+  - Browser-based interactive UI
+  - `index.html`: Responsive layout with Bootstrap 5.3
+  - `app.js`: Client-side sorting implementations + UI orchestration
+  - `styles.css`: Dark theme with glass-morphism design
+  - Includes canvas-based sorting visualization
+
+### **`tests/` - Testing**
+- `lab.test.js`: Comprehensive unit test suite
+- Tests both recursive and iterative implementations
+- Covers edge cases: empty arrays, duplicates, large datasets
+- **Run with:** `npm test`
+
+### **`benchmarks/` - Performance Testing**
+- `benchmark.js`: Multi-algorithm, multi-dataset performance harness
+- Tests 5 algorithms across 5 dataset types (random, sorted, reverse, etc.)
+- Reports mean and median execution times
+- **Run with:** `npm run benchmark`
+
+### **`docs/` - Documentation**
+- `README.md` (this file): Complete API and feature documentation
+- `DOCUMENTATION.md`: Algorithm complexity analysis and learning notes
+
+### **Root Level**
+- `README.md`: Quick start guide
+- `package.json`: Dependencies and npm scripts
+- `package-lock.json`: Locked dependency versions
 
 ---
 
