@@ -1,0 +1,26 @@
+{
+  "name": "quicksort-api",
+  "version": "1.0.0",
+  "description": "REST API for sorting algorithms (QuickSort, MergeSort, HeapSort, built-in sort)",
+  "main": "src/api/server.js",
+  "scripts": {
+    "start": "node src/api/server.js",
+    "test": "node tests/lab.test.js",
+    "benchmark": "node benchmarks/benchmark.js"
+  },
+  "keywords": [
+    "quicksort",
+    "sorting",
+    "algorithms",
+    "api",
+    "rest"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
