@@ -1,89 +1,183 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Quicksort Visual & Runner</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Visualizer - Sorting Algorithms</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <main class="min-vh-100 d-flex align-items-center justify-content-center">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="card shadow-lg glass">
-              <div class="card-body p-5">
-                <h1 class="card-title mb-3 display-6">Quicksort Runner</h1>
-                <p class="text-muted mb-4">Paste numbers separated by commas or spaces, then choose an algorithm.</p>
-
-                <div class="mb-3">
-                  <textarea id="inputArray" class="form-control input-lg" rows="3" placeholder="e.g. 5, 3, 8, 1, 2, 9"></textarea>
-                </div>
-
-                  <div class="d-flex gap-2 mb-3 flex-wrap align-items-center">
-                    <select id="algoSelect" class="form-select w-auto">
-                      <option value="quicksortRecursive">QuickSort (Recursive)</option>
-                      <option value="quicksortIterative">QuickSort (Iterative)</option>
-                      <option value="mergeSort">MergeSort</option>
-                      <option value="heapSort">HeapSort</option>
-                      <option value="builtin">JS Built-in Sort</option>
-                    </select>
-                    <button id="btnRun" class="btn btn-primary">Run</button>
-                  <div class="dropdown ms-2">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Samples</button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item sample" data-sample="5,3,8,1,2,9">Small random</a></li>
-                      <li><a class="dropdown-item sample" data-sample="1,2,3,4,5,6">Already sorted</a></li>
-                      <li><a class="dropdown-item sample" data-sample="6,5,4,3,2,1">Reverse sorted</a></li>
-                      <li><a class="dropdown-item sample" data-sample="5,5,5,5,5">All equal</a></li>
-                      <li><a class="dropdown-item sample" data-sample="">Clear</a></li>
-                    </ul>
-                  </div>
-                  <button id="btnClear" class="btn btn-outline-danger ms-auto">Clear</button>
-                </div>
-
-                <div id="alerts"></div>
-
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <div class="card result-card">
-                      <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted">Sorted Result</h6>
-                        <pre id="output" class="m-0 height-120"></pre>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="card result-card">
-                      <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted">Metrics</h6>
-                        <ul id="metrics" class="list-unstyled mb-0 small"></ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="mt-4">
-                  <div class="form-check form-switch mb-2">
-                    <input class="form-check-input" type="checkbox" id="visualizeToggle">
-                    <label class="form-check-label small" for="visualizeToggle">Visualize sorting (canvas)</label>
-                  </div>
-                  <label class="form-label small">Animation speed</label>
-                  <input id="speedRange" type="range" min="1" max="200" value="50" class="form-range mb-3">
-                  <canvas id="vizCanvas" width="800" height="160" style="width:100%; border-radius:8px; background: rgba(0,0,0,0.05)"></canvas>
-                </div>
-
-                <div class="mt-4 text-end text-muted small">Built with Bootstrap • Quick, clean UI</div>
-              </div>
+</head>
+<body>
+    <!-- Header -->
+    <header class="app-header">
+        <div class="header-container">
+            <div class="header-left">
+                <h1 class="app-title">Algorithm Visualizer</h1>
+                <p class="app-subtitle">Interactive sorting algorithm visualization and analysis</p>
             </div>
-          </div>
+            <div class="header-right">
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
         </div>
-      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="app-main">
+        <div class="container">
+            <!-- Left Panel: Controls -->
+            <aside class="control-panel">
+                <!-- Input Section -->
+                <section class="control-section">
+                    <div class="section-header">
+                        <h2 class="section-title">Input Array</h2>
+                        <span class="section-hint">Comma or space separated</span>
+                    </div>
+                    <textarea
+                        id="inputArray"
+                        class="input-array"
+                        placeholder="5, 3, 8, 1, 2, 9, 4, 7"
+                        spellcheck="false"
+                    ></textarea>
+                    <div class="input-helpers">
+                        <button id="btnClear" class="btn btn-secondary btn-sm">Clear</button>
+                        <div class="preset-buttons">
+                            <label>Quick presets:</label>
+                            <button class="btn btn-preset" data-sample="5,3,8,1,2,9">Random</button>
+                            <button class="btn btn-preset" data-sample="1,2,3,4,5,6">Sorted</button>
+                            <button class="btn btn-preset" data-sample="6,5,4,3,2,1">Reverse</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Algorithm Selection Section -->
+                <section class="control-section">
+                    <div class="section-header">
+                        <h2 class="section-title">Algorithm</h2>
+                        <span class="section-hint">Choose sorting algorithm</span>
+                    </div>
+                    <div class="algorithm-selector">
+                        <select id="algoSelect" class="algo-dropdown">
+                            <optgroup label="QuickSort Variants">
+                                <option value="quicksortRecursive">QuickSort (Recursive)</option>
+                                <option value="quicksortIterative">QuickSort (Iterative)</option>
+                            </optgroup>
+                            <optgroup label="Other Algorithms">
+                                <option value="mergeSort">MergeSort</option>
+                                <option value="heapSort">HeapSort</option>
+                                <option value="builtin">JavaScript Built-in</option>
+                            </optgroup>
+                        </select>
+                        <p class="algo-description" id="algoDesc"></p>
+                    </div>
+                </section>
+
+                <!-- Visualization Controls -->
+                <section class="control-section">
+                    <div class="section-header">
+                        <h2 class="section-title">Visualization</h2>
+                        <span class="section-hint">Animation settings</span>
+                    </div>
+                    <div class="viz-controls">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="visualizeToggle" class="checkbox">
+                            <span>Enable animation</span>
+                        </label>
+                        
+                        <div class="speed-control">
+                            <label for="speedRange" class="label-text">Animation speed</label>
+                            <div class="speed-display">
+                                <input id="speedRange" type="range" min="1" max="200" value="50" class="speed-slider">
+                                <span id="speedValue" class="speed-value">50x</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Action Buttons -->
+                <section class="control-section control-section-actions">
+                    <button id="btnRun" class="btn btn-primary btn-lg">Run Sort</button>
+                </section>
+            </aside>
+
+            <!-- Right Panel: Visualization & Results -->
+            <section class="visualization-panel">
+                <!-- Visualization Canvas -->
+                <div class="canvas-container">
+                    <div class="canvas-header">
+                        <h3 class="canvas-title">Array Visualization</h3>
+                        <span id="arraySize" class="array-size"></span>
+                    </div>
+                    <canvas id="vizCanvas" class="viz-canvas" width="800" height="300"></canvas>
+                    <div class="canvas-legend">
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: var(--color-bar)"></div>
+                            <span>Normal</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: var(--color-compare)"></div>
+                            <span>Comparing</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: var(--color-swap)"></div>
+                            <span>Swapping</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: var(--color-sorted)"></div>
+                            <span>Sorted</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Metrics & Results -->
+                <div class="results-panel">
+                    <div class="results-header">
+                        <h3 class="results-title">Performance Metrics</h3>
+                        <div id="alerts" class="alerts"></div>
+                    </div>
+
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <div class="metric-label">Execution Time</div>
+                            <div class="metric-value" id="metricTime">-</div>
+                            <div class="metric-unit">milliseconds</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-label">Comparisons</div>
+                            <div class="metric-value" id="metricComparisons">-</div>
+                            <div class="metric-unit">operations</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-label">Swaps</div>
+                            <div class="metric-value" id="metricSwaps">-</div>
+                            <div class="metric-unit">operations</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-label">Recursion Depth</div>
+                            <div class="metric-value" id="metricDepth">-</div>
+                            <div class="metric-unit">levels</div>
+                        </div>
+                    </div>
+
+                    <!-- Sorted Result -->
+                    <div class="result-output">
+                        <div class="output-header">
+                            <h4 class="output-title">Sorted Array</h4>
+                            <button id="btnCopyResult" class="btn btn-outline-sm" title="Copy to clipboard">Copy</button>
+                        </div>
+                        <pre id="output" class="output-code"></pre>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Footer -->
+    <footer class="app-footer">
+        <p>Algorithm Visualizer • Educational Tool • <a href="https://github.com">Source Code</a></p>
+    </footer>
+
     <script src="app.js"></script>
-  </body>
+</body>
 </html>
