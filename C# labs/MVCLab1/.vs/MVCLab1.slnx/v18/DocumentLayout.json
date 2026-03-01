@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E41C28E0-8B22-6D9A-258B-99EA497D0ED9}|MVCLab1.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\mvclab1\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E41C28E0-8B22-6D9A-258B-99EA497D0ED9}|MVCLab1.csproj|solutionrelative:controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E41C28E0-8B22-6D9A-258B-99EA497D0ED9}|MVCLab1.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\mvclab1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E41C28E0-8B22-6D9A-258B-99EA497D0ED9}|MVCLab1.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E41C28E0-8B22-6D9A-258B-99EA497D0ED9}|MVCLab1.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\mvclab1\\views\\test\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E41C28E0-8B22-6D9A-258B-99EA497D0ED9}|MVCLab1.csproj|solutionrelative:views\\test\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E41C28E0-8B22-6D9A-258B-99EA497D0ED9}|MVCLab1.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\mvclab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E41C28E0-8B22-6D9A-258B-99EA497D0ED9}|MVCLab1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLab1\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLab1\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T17:52:51.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "display.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLab1\\Views\\Test\\display.cshtml",
+              "RelativeDocumentMoniker": "Views\\Test\\display.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLab1\\Views\\Test\\display.cshtml",
+              "RelativeToolTip": "Views\\Test\\display.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T23:21:38.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLab1\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLab1\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T22:58:11.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLab1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLab1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T22:34:06.796Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
