@@ -1,0 +1,89 @@
+﻿@model IEnumerable<MVCLAB2.Models.Department>
+
+@{
+    ViewData["Title"] = "Departments";
+}
+
+<div class="d-flex justify-content-between align-items-center">
+    <h1>Departments</h1>
+
+    <p>
+        <a asp-action="Create" class="btn btn-outline-primary">
+            Create New
+        </a>
+    </p>
+</div>
+
+<table class="table  table-hover table-bordered">
+    <thead>
+        <tr class="text-center">
+            <th>
+                Department Id
+            </th>
+            <th>
+                Department Name
+            </th>
+            <th>
+                Capacity
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+
+            <tr class="fw-semibold text-center">
+                <td>
+                    @item.deptID
+                <td>
+                    @item.deptName
+                </td>
+
+                <td>
+                    @item.capacity
+                </td>
+
+                <td class="d-flex justify-content-between align-items-center gap-1">
+
+                    <a class="btn btn-outline-warning flex-grow-1"
+                       asp-action="Edit"
+                       asp-route-id="@item.deptID">
+                        Edit
+                    </a>
+
+                    <a class="btn btn-outline-info flex-grow-1"
+                       asp-action="Details"
+                       asp-route-id="@item.deptID">
+                        Details
+                    </a>
+
+                    <a class="btn btn-outline-success flex-grow-1"
+                       asp-action="Courses"
+                       asp-route-id="@item.deptID">
+                        Courses
+                    </a>
+
+                    <a class="btn btn-outline-danger flex-grow-1"
+                       asp-action="Delete"
+                       asp-route-id="@item.deptID">
+                        Delete
+                    </a>
+
+                </td>
+            </tr>
+        }
+
+        @if (!Model.Any())
+        {
+            <tr>
+                <td colspan="3" class="text-center">
+                    No departments found.
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

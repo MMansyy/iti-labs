@@ -19,6 +19,7 @@ namespace MVCLAB2.Models
 
         public ICollection<Student> students { get; set; } = new HashSet<Student>();
 
+        public ICollection<Course> courses { get; set; } = new HashSet<Course>();
 
     }
 }

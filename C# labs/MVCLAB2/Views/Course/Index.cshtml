@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MVCLAB2.Models.Course>
+
+@{
+    ViewData["Title"] = "Courses";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h1>Courses</h1>
+    <a asp-action="Create" class="btn btn-outline-primary">Create New</a>
+</div>
+</p>
+
+<table class="table table-bordered table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Capacity</th>
+            <th>Department</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>@item.courseId</td>
+
+                <td>@item.name</td>
+
+                <td>@item.capacity</td>
+
+                <td>
+                    @(item.department != null
+                                    ? item.department.deptName
+                                    : "No Department")
+                </td>
+
+                <td class="d-flex gap-2">
+                    <a asp-action="Edit" asp-route-id="@item.courseId" class="btn btn-outline-warning btn-sm flex-grow-1">Edit</a>
+
+                    <a asp-action="Details" asp-route-id="@item.courseId" class="btn btn-outline-info btn-sm flex-grow-1">Details</a>
+
+                    <a asp-action="Delete" asp-route-id="@item.courseId" class="btn btn-outline-danger btn-sm flex-grow-1">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

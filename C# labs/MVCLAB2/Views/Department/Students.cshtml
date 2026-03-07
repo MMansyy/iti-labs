@@ -1,0 +1,72 @@
+﻿@model List<Student>
+
+@{
+    ViewData["Title"] = "Students";
+}
+
+<h1>Students - @ViewBag.DepartmentName</h1>
+
+<form asp-action="UpdateDegrees" method="post">
+
+    @ViewBag.DepartmentName
+    @ViewBag.CourseId
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Student Name</th>
+                <th>Degree</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            @if (Model == null || Model.Count == 0)
+            {
+                <tr>
+                    <td colspan="3" class="text-center">
+                        No students enrolled in this course.
+                    </td>
+                </tr>
+            }
+            else
+            {
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    var degree = Model[i].studentCourses?
+                    .FirstOrDefault(sc => sc.courseId == (int)ViewBag.CourseId)?.degree;
+
+                    <tr>
+                        <td>@Model[i].id</td>
+
+                        <td>@Model[i].name</td>
+
+                        <td>
+                            <input type="text"
+                                   name="degrees[@Model[i].id]"
+                                   value="@degree"
+                                   class="form-control" />
+                        </td>
+
+                    </tr>
+                }
+                <input type="hidden"
+                       name="courseId"
+                       value="@ViewBag.CourseId" />
+                <input type="hidden"
+                       name="deptID"
+                       value="@Model[0]?.deptId" />
+            }
+            )
+
+        </tbody>
+    </table>
+
+    @if (Model != null && Model.Count > 0)
+    {
+        <button type="submit" class="btn btn-success">
+            Save All Degrees
+        </button>
+    }
+
+</form>

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using MVCLAB2.Models;
 using MVCLAB2.Repos;
@@ -6,10 +7,21 @@ using System.Linq;
 
 namespace MVCLAB2.Controllers
 {
+
+    [Authorize(Roles = "Admin")]
+
     public class StudentController : Controller
     {
-        IEntities<Student> studentRepo = new StudentRepo();
-        IEntities<Department> departmentRepo = new DepartmentRepo();
+        IEntities<Student> studentRepo;
+        IEntities<Department> departmentRepo;
+
+
+        public StudentController(IEntities<Student> studentRepo, IEntities<Department> departmentRepo)
+        {
+            this.studentRepo = studentRepo;
+            this.departmentRepo = departmentRepo;
+        }
+
         public IActionResult Index()
         {
             var students = studentRepo.GetAll();

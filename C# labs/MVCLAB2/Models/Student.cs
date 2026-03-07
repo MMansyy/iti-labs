@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -21,6 +22,10 @@ namespace MVCLAB2.Models
 
         [ValidateNever]
         public virtual Department department { get; set; }
+
+
+        
+        public ICollection<StudentCourse> studentCourses { get; set; } = new HashSet<StudentCourse>();
 
 
 

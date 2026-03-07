@@ -1,0 +1,47 @@
+﻿@model IEnumerable<MVCLAB2.Models.Course>
+
+@{
+    ViewData["Title"] = "Courses";
+}
+
+<h1>@ViewBag.DepartmentName</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Course ID
+            </th>
+            <th>
+                Course Name
+            </th>
+            <th>
+                Capacity
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.courseId
+                </td>
+                <td>
+                    @item.name
+                </td>
+                <td>
+                    @item.capacity
+                </td>
+                <td>
+                    <a asp-action="Students" asp-route-id="@item.courseId" asp-route-deptID="@item.deptID">Students</a>
+                    <a asp-action="Edit" asp-route-id="@item.courseId">Edit</a>
+                    <a asp-action="Delete" asp-controller="Course" asp-route-id="@item.courseId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

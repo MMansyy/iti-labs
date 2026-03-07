@@ -1,14 +1,29 @@
-﻿using MVCLAB2.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using MVCLAB2.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 
 namespace MVCLAB2.Repos
 {
     public class DepartmentRepo : IEntities<Department>
     {
-        ITIContextcs context = new ITIContextcs();
-        public List<Department> GetAll()
+        ITIContextcs context;
+
+
+
+        public DepartmentRepo(ITIContextcs context)
         {
+            this.context = context;
+        }
+
+        public List<Department> GetAll(Expression<Func<Department, bool>>? filter = null)
+        {
+            if (filter != null)
+            {
+                return context.departments.Where(filter).ToList();
+            }
             return context.departments.ToList();
         }
         public Department GetById(int id)
@@ -25,7 +40,9 @@ namespace MVCLAB2.Repos
             var existingDepartment = context.departments.FirstOrDefault(d => d.deptID == entity.deptID);
             if (existingDepartment != null)
             {
-                context.departments.Update(entity);
+                existingDepartment.deptName = entity.deptName;
+                existingDepartment.capacity = entity.capacity;
+                //existingDepartment.deptID = entity.deptID;
                 context.SaveChanges();
             }
         }

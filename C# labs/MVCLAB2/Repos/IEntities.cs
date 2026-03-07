@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq.Expressions;
 
 namespace MVCLAB2.Repos
 {
     public interface IEntities<T>
     {
-        List<T> GetAll();
+        List<T> GetAll(Expression<Func<T, bool>>? filter = null);
 
         T GetById(int id);
 

@@ -45,5 +45,11 @@
                 </td>
             </tr>
         }
+        @if (!Model.Any())
+        {
+            <tr>
+                <td colspan="4" class="text-center">No students found.</td>
+            </tr>
+        }
     </tbody>
 </table>

@@ -1,16 +1,29 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MVCLAB2.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 
 namespace MVCLAB2.Repos
 {
     public class StudentRepo : IEntities<Student>
     {
-        ITIContextcs context = new ITIContextcs();
-        public List<Student> GetAll()
+        ITIContextcs context;
+
+
+        public StudentRepo(ITIContextcs context)
         {
-            return context.students.Include(s => s.department).ToList();
+            this.context = context;
+        }
+
+        public List<Student> GetAll(Expression<Func<Student, bool>>? filter = null)
+        {
+            if (filter != null)
+            {
+                return context.students.Include(s => s.studentCourses).Include(s => s.department).Where(filter).ToList();
+            }
+            return context.students.Include(s => s.studentCourses).Include(s => s.department).ToList();
         }
 
         public Student GetById(int id)
