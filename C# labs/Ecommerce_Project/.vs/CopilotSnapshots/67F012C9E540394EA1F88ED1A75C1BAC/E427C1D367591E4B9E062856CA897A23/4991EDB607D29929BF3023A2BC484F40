@@ -1,0 +1,14 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Ecommerce_Project.Models
+{
+    public class Address
+    {
+        [Key]
+        public int AdressId { get; set; }
+
+
+
+
+    }
+}

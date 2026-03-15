@@ -1,0 +1,28 @@
+  body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* لون الأزرار الوردي المخصص */
+        .btn-pink {
+            background-color: #f06292;
+            color: white;
+            border: 1px solid #d81b60;
+        }
+
+        .btn-pink:hover {
+            background-color: #d81b60;
+            color: white;
+        }
+
+        /* حجم صور الجاليري */
+        .arrow-btn {
+            width: 30px;
+            cursor: pointer;
+        }
+
+        #mainImage {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+        }

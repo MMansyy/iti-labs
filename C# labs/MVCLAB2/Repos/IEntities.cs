@@ -6,7 +6,7 @@ namespace MVCLAB2.Repos
 {
     public interface IEntities<T>
     {
-        List<T> GetAll(Expression<Func<T, bool>>? filter = null);
+        List<T> GetAll(Expression<Func<T, bool>>? filter = null , string? includeProperties = "");
 
         T GetById(int id);
 

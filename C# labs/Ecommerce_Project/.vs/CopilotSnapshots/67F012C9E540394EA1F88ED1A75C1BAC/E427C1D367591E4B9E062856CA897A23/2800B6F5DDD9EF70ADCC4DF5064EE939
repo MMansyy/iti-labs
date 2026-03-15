@@ -1,0 +1,22 @@
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
+
+namespace Ecommerce_Project.Models
+{
+    public class ApplicationUser : IdentityUser
+    {
+
+        [MaxLength(100)]
+        public string FullName { get; set; }
+
+        [Required]
+        [EmailAddress]
+        [Remote(action: "IsEmailAvailable", controller: "Account", ErrorMessage = "Email is already in use.")]
+        public override string Email { get; set; }
+
+
+        public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
+        public virtual ICollection<Address> Addresses { get; set; } = new List<Address>();
+    }
+}

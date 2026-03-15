@@ -1,0 +1,33 @@
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+namespace Ecommerce_Project.Models
+{
+    public class DBContext : IdentityDbContext<ApplicationUser>
+    {
+
+        public DBContext() : base()
+        {
+        }
+        public DBContext(DbContextOptions<DBContext> options) : base(options)
+        {
+        }
+
+        public DbSet<Product> Products { get; set; }
+
+
+
+
+
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+
+            builder.Entity<Product>()
+                .HasIndex(p => p.SKU)
+                .IsUnique();
+        }
+
+
+    }
+}

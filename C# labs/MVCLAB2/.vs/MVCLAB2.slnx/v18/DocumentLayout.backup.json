@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\mvclab2\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\mvclab2\\repos\\ientities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|solutionrelative:repos\\ientities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\mvclab2\\repos\\entityrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|solutionrelative:repos\\entityrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\mvclab2\\repos\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|solutionrelative:repos\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\mvclab2\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\mvclab2\\models\\iticontextcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +27,16 @@
       "RelativeMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\mvclab2\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\mvclab2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\mvclab2\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\mvclab2\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{665D7D16-87E9-9B2D-A917-8F124E88E26D}|MVCLAB2.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\mvclab2\\views\\department\\courses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,11 +58,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Repos\\StudentRepo.cs",
+              "RelativeDocumentMoniker": "Repos\\StudentRepo.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Repos\\StudentRepo.cs",
+              "RelativeToolTip": "Repos\\StudentRepo.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T18:29:52.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntityRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Repos\\EntityRepo.cs",
+              "RelativeDocumentMoniker": "Repos\\EntityRepo.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Repos\\EntityRepo.cs",
+              "RelativeToolTip": "Repos\\EntityRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T18:23:06.159Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IEntities.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Repos\\IEntities.cs",
+              "RelativeDocumentMoniker": "Repos\\IEntities.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Repos\\IEntities.cs",
+              "RelativeToolTip": "Repos\\IEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T18:22:40.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T18:22:20.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITIContextcs.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Models\\ITIContextcs.cs",
+              "RelativeDocumentMoniker": "Models\\ITIContextcs.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Models\\ITIContextcs.cs",
+              "RelativeToolTip": "Models\\ITIContextcs.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T00:33:00.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
@@ -54,38 +131,23 @@
               "RelativeToolTip": "Controllers\\DepartmentController.cs",
               "ViewState": "AgIAAHcAAAAAAAAAAAAQwIsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T13:40:58.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-07T13:40:58.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ITIContextcs.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Models\\ITIContextcs.cs",
-              "RelativeDocumentMoniker": "Models\\ITIContextcs.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Models\\ITIContextcs.cs",
-              "RelativeToolTip": "Models\\ITIContextcs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T12:12:58.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-07T12:12:23.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-07T12:12:23.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
@@ -93,25 +155,23 @@
               "RelativeToolTip": "Views\\Student\\Index.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-05T00:23:21.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T00:23:21.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB4AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T19:38:46.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T19:38:46.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
@@ -123,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Courses.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Views\\Department\\Courses.cshtml",
               "RelativeDocumentMoniker": "Views\\Department\\Courses.cshtml",
@@ -131,12 +191,11 @@
               "RelativeToolTip": "Views\\Department\\Courses.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-03T18:45:38.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T18:45:38.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\MVCLAB2\\Views\\Course\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Course\\Edit.cshtml",
