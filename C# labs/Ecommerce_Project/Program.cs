@@ -34,6 +34,7 @@ namespace Ecommerce_Project
             builder.Services.ConfigureApplicationCookie(options =>
             {
                 options.LoginPath = "/Account/Login";
+                options.AccessDeniedPath = "/Account/AccessDenied";
                 options.LogoutPath = "/";
             });
 
@@ -43,6 +44,8 @@ namespace Ecommerce_Project
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<ICartService, CartService>();
+            builder.Services.AddScoped<IAdminService, AdminService>();
+            builder.Services.AddScoped<IAccountService, AccountService>();
             builder.Services.AddHttpContextAccessor();
 
 

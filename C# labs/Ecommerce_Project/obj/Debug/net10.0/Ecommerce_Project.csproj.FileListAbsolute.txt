@@ -149,7 +149,6 @@ C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\rjsmc
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\scopedcss\bundle\Ecommerce_Project.styles.css
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\scopedcss\projectbundle\Ecommerce_Project.bundle.scp.css
-C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\compressed\r4fmaw8mio-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\compressed\vfjtmd230c-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\compressed\mqnu9dbyk0-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\compressed\o9sksinukp-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -339,3 +338,4 @@ C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\bin\Debug\net10.0\ru\Mi
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\compressed\r4fmaw8mio-{0}-gkoc0v8l1t-gkoc0v8l1t.gz

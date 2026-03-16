@@ -1,4 +1,6 @@
 using Ecommerce_Project.Models;
+using Ecommerce_Project.Repositories;
+using Ecommerce_Project.Views.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -6,9 +8,33 @@ namespace Ecommerce_Project.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IUnitOfWork unitOfWork;
+
+        public HomeController(IUnitOfWork _unitOfWork)
+        {
+            unitOfWork = _unitOfWork;
+        }
+
         public IActionResult Index()
         {
-            return View();
+            var model = new HomeVM
+            {
+                ProductsCount = unitOfWork.Products.GetAll(p => p.IsActive).Count(),
+                CategoriesCount = unitOfWork.Categories.GetAll().Count(),
+                OrdersCount = unitOfWork.Orders.GetAll().Count(),
+                FeaturedProducts = unitOfWork.Products
+                    .GetAll(p => p.IsActive, "Category")
+                    .OrderByDescending(p => p.CreatedAt)
+                    .Take(6)
+                    .ToList(),
+                TopCategories = unitOfWork.Categories
+                    .GetAll()
+                    .OrderBy(c => c.Name)
+                    .Take(8)
+                    .ToList()
+            };
+
+            return View(model);
         }
 
         public IActionResult Privacy()

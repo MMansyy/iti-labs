@@ -1,0 +1,70 @@
+@model CartVM
+
+@{
+    ViewData["Title"] = "Cart";
+}
+
+<h1 class="h3 mb-4">Your Cart</h1>
+
+@if (Model.CartItems.Any())
+{
+    <div class="row g-4">
+        <div class="col-lg-8">
+            <div class="card form-card p-3">
+                <div class="table-responsive">
+                    <table class="table align-middle mb-0">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th style="width: 190px;">Quantity</th>
+                                <th>Total</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.CartItems)
+                            {
+                                <tr>
+                                    <td>@item.Name</td>
+                                    <td>@item.Price.ToString("C")</td>
+                                    <td>
+                                        <form asp-action="Update" asp-controller="Cart" method="get" class="d-flex gap-2">
+                                            <input type="hidden" name="productId" value="@item.ProductId" />
+                                            <input type="number" name="quantity" min="0" value="@item.Quantity" class="form-control" />
+                                            <button type="submit" class="btn btn-outline-secondary btn-sm">Update</button>
+                                        </form>
+                                    </td>
+                                    <td>@((item.Price * item.Quantity).ToString("C"))</td>
+                                    <td>
+                                        <a asp-action="Delete" asp-controller="Cart" asp-route-productId="@item.ProductId" class="btn btn-outline-danger btn-sm">Remove</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card form-card p-4">
+                <h2 class="h5">Order Summary</h2>
+                <hr />
+                <div class="d-flex justify-content-between mb-3">
+                    <span>Total</span>
+                    <strong>@Model.TotalPrice.ToString("C")</strong>
+                </div>
+                <button type="button" class="btn btn-primary w-100 mb-2" disabled>Checkout (coming soon)</button>
+                <a asp-action="Clear" asp-controller="Cart" class="btn btn-outline-danger w-100">Clear Cart</a>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="card form-card p-5 text-center">
+        <h2 class="h5 mb-2">Your cart is empty</h2>
+        <p class="text-muted mb-4">Looks like you haven’t added anything yet.</p>
+        <a asp-controller="Catalog" asp-action="Index" class="btn btn-primary">Start shopping</a>
+    </div>
+}

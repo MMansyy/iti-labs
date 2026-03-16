@@ -1,0 +1,51 @@
+@model ProductDetailsVM
+
+@{
+    ViewData["Title"] = Model.Product.Name;
+}
+
+<div class="row g-4 mb-5">
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm h-100">
+            <div class="product-image d-flex align-items-center justify-content-center bg-light rounded-3">
+                <div class="text-center px-3">
+                    <h2 class="h4 mb-2">@Model.Product.Name</h2>
+                    <p class="text-muted mb-0">SKU: @Model.Product.SKU</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="card form-card p-4 h-100">
+            <span class="badge bg-light text-secondary border mb-2">@(Model.Product.Category?.Name ?? "General")</span>
+            <h1 class="h3 mb-3">@Model.Product.Name</h1>
+            <p class="text-muted mb-3">@(string.IsNullOrWhiteSpace(Model.Product.Description) ? "No description available for this product." : Model.Product.Description)</p>
+            <p class="small text-muted">SKU: @Model.Product.SKU</p>
+
+            <div class="d-flex align-items-center justify-content-between mb-4">
+                <span class="display-6 fw-bold text-primary">@Model.Product.Price.ToString("C")</span>
+                <span class="badge rounded-pill @(Model.Product.StockQuantity > 0 ? "bg-success-subtle text-success" : "bg-danger-subtle text-danger")">
+                    @(Model.Product.StockQuantity > 0 ? $"In stock ({Model.Product.StockQuantity})" : "Out of stock")
+                </span>
+            </div>
+
+            <div class="d-flex gap-2">
+                <a asp-controller="Cart" asp-action="Add" asp-route-productId="@Model.Product.ProductId" class="btn btn-primary">Add to cart</a>
+                <a asp-action="Index" asp-controller="Catalog" class="btn btn-outline-secondary">Back to catalog</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (Model.RelatedProducts != null && Model.RelatedProducts.Any())
+{
+    <section>
+        <h2 class="h4 mb-3">Related products</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+            @foreach (var product in Model.RelatedProducts)
+            {
+                @await Html.PartialAsync("_ProductCard", product)
+            }
+        </div>
+    </section>
+}

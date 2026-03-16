@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<section class="hero p-4 p-md-5 mb-4 shadow-sm">
+    <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+            <span class="badge bg-light text-primary border mb-3">New Season Collection</span>
+            <h1 class="display-6 fw-bold mb-3">Discover clean, modern products for your daily life</h1>
+            <p class="text-muted mb-4">Browse premium picks with minimal design, smooth shopping flow, and fast checkout.</p>
+            <div class="d-flex gap-2">
+                <a asp-controller="Catalog" asp-action="Index" class="btn btn-primary px-4">Shop Now</a>
+                <a asp-controller="Cart" asp-action="Index" class="btn btn-outline-secondary px-4">View Cart</a>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <img src="https://picsum.photos/seed/homehero/900/600" class="img-fluid rounded-4 shadow-sm" alt="Modern shopping" />
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="h4 fw-semibold section-title mb-0">Start shopping</h2>
+        <a asp-controller="Catalog" asp-action="Index" class="text-decoration-none">Explore all products</a>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card panel-card h-100 p-3">
+                <h3 class="h6">Curated Catalog</h3>
+                <p class="text-muted mb-0">Find products by category, search quickly, and sort by name or price.</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card panel-card h-100 p-3">
+                <h3 class="h6">Smooth Cart</h3>
+                <p class="text-muted mb-0">Update quantities instantly and keep track of your order total.</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card panel-card h-100 p-3">
+                <h3 class="h6">Secure Account</h3>
+                <p class="text-muted mb-0">Register and log in to manage orders and enjoy faster checkout.</p>
+            </div>
+        </div>
+    </div>
+</section>

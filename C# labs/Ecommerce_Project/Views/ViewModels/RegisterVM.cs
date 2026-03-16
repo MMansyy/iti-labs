@@ -16,6 +16,7 @@ namespace Ecommerce_Project.Views.ViewModels
         public string Password { get; set; }
 
         [Compare("Password")]
+        [DataType(DataType.Password)]
         public string ConfirmPassword { get; set; }
     }
 }

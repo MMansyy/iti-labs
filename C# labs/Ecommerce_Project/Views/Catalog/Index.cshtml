@@ -1,0 +1,74 @@
+@model CatalogVM
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2 mb-3">
+    <h1 class="h3 mb-0">Product Catalog</h1>
+    <span class="text-muted">@Model.TotalItems item(s) found</span>
+</div>
+
+<div class="card form-card p-3 mb-4">
+    <form asp-action="Index" asp-controller="Catalog" method="get" class="row g-3 align-items-end">
+        <div class="col-md-4">
+            <label asp-for="QuerySearch" class="form-label">Search</label>
+            <input asp-for="QuerySearch" class="form-control" placeholder="Search by name or description" />
+        </div>
+        <div class="col-md-3">
+            <label asp-for="CategoryId" class="form-label">Category</label>
+            <select asp-for="CategoryId" class="form-select">
+                <option value="">All Categories</option>
+                @foreach (var category in Model.Categories)
+                {
+                    <option value="@category.CategoryId">@category.Name</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label asp-for="SortBy" class="form-label">Sort by</label>
+            <select asp-for="SortBy" class="form-select">
+                <option value="name_asc">Name (A-Z)</option>
+                <option value="name_desc">Name (Z-A)</option>
+                <option value="price_asc">Price (Low to High)</option>
+                <option value="price_desc">Price (High to Low)</option>
+            </select>
+        </div>
+        <div class="col-md-2 d-grid">
+            <button type="submit" class="btn btn-primary">Apply</button>
+        </div>
+    </form>
+</div>
+
+@if (Model.Products.Any())
+{
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 mb-4">
+        @foreach (var product in Model.Products)
+        {
+            @await Html.PartialAsync("_ProductCard", product)
+        }
+    </div>
+
+    @if (Model.TotalPages > 1)
+    {
+        <nav aria-label="Catalog pages">
+            <ul class="pagination justify-content-center">
+                @for (var i = 1; i <= Model.TotalPages; i++)
+                {
+                    <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                        <a class="page-link"
+                           asp-action="Index"
+                           asp-route-PageNumber="@i"
+                           asp-route-CategoryId="@Model.CategoryId"
+                           asp-route-QuerySearch="@Model.QuerySearch"
+                           asp-route-SortBy="@Model.SortBy">@i</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    }
+}
+else
+{
+    <div class="alert alert-light border text-muted">No products match your filters.</div>
+}
