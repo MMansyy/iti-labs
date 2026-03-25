@@ -54,7 +54,14 @@
                     <span>Total</span>
                     <strong>@Model.TotalPrice.ToString("C")</strong>
                 </div>
-                <button type="button" class="btn btn-primary w-100 mb-2" disabled>Checkout (coming soon)</button>
+                @if (User.Identity?.IsAuthenticated == true)
+                {
+                    <a asp-controller="Order" asp-action="Create" class="btn btn-primary w-100 mb-2">Proceed to Checkout</a>
+                }
+                else
+                {
+                    <a asp-controller="Account" asp-action="Login" class="btn btn-primary w-100 mb-2">Login to Checkout</a>
+                }
                 <a asp-action="Clear" asp-controller="Cart" class="btn btn-outline-danger w-100">Clear Cart</a>
             </div>
         </div>

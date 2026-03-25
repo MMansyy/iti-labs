@@ -1,16 +1,28 @@
-﻿using Ecommerce_Project.Services;
+﻿using Ecommerce_Project.Services.Interfaces;
 using Ecommerce_Project.Views.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace Ecommerce_Project.Controllers
 {
     public class AccountController : Controller
     {
         private readonly IAccountService accountService;
+        private readonly IOrderService orderService;
+        private readonly IAddressService addressService;
 
-        public AccountController(IAccountService _accountService)
+        private string CurrentUserId =>
+            User.FindFirstValue(ClaimTypes.NameIdentifier)!;
+
+        public AccountController(
+            IAccountService _accountService,
+            IOrderService _orderService,
+            IAddressService _addressService)
         {
             accountService = _accountService;
+            orderService = _orderService;
+            addressService = _addressService;
         }
 
         // =============================
@@ -94,6 +106,23 @@ namespace Ecommerce_Project.Controllers
         public IActionResult AccessDenied()
         {
             return View();
+        }
+
+        // =============================
+        // Settings (Orders + Addresses)
+        // =============================
+
+        [Authorize]
+        public async Task<IActionResult> Settings(string tab = "orders")
+        {
+            var model = new SettingsVM
+            {
+                Orders = await orderService.GetUserOrdersAsync(CurrentUserId),
+                Addresses = addressService.GetUserAddresses(CurrentUserId),
+                ActiveTab = tab
+            };
+
+            return View(model);
         }
     }
 }

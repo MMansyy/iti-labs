@@ -217,7 +217,6 @@ C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\stati
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\Ecommerc.CA3A37DD.Up2Date
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\Ecommerce_Project.dll
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\refint\Ecommerce_Project.dll
@@ -338,4 +337,7 @@ C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\bin\Debug\net10.0\ru\Mi
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\compressed\r4fmaw8mio-{0}-gkoc0v8l1t-gkoc0v8l1t.gz
+C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\bin\Debug\net10.0\dotnet-tools.json
+C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\compressed\r4fmaw8mio-{0}-zyxqp809it-zyxqp809it.gz
+C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\obj\Debug\net10.0\compressed\ow4pm4g0vn-{0}-5chkczmafm-5chkczmafm.gz

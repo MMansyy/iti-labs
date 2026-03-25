@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 public class ProductController : Controller
 {
     private readonly IProductService productService;
+    
 
     public ProductController(IProductService _productService)
     {
@@ -28,10 +29,22 @@ public class ProductController : Controller
     public async Task<IActionResult> Create(ProductVM model)
     {
         if (!ModelState.IsValid)
-            return View(productService.GetCreateVM());
+        {
+            model.Categories = productService.GetCreateVM().Categories;
+            return View(model);
+        }
 
-        await productService.Create(model);
-        return RedirectToAction(nameof(Index));
+        try
+        {
+            await productService.Create(model);
+            return RedirectToAction(nameof(Index));
+        }
+        catch (InvalidOperationException ex)
+        {
+            ModelState.AddModelError(nameof(model.ImageFile), ex.Message);
+            model.Categories = productService.GetCreateVM().Categories;
+            return View(model);
+        }
     }
 
     public IActionResult Edit(int id)
@@ -47,10 +60,22 @@ public class ProductController : Controller
     public async Task<IActionResult> Edit(ProductVM model)
     {
         if (!ModelState.IsValid)
-            return View(productService.GetCreateVM());
+        {
+            model.Categories = productService.GetCreateVM().Categories;
+            return View(model);
+        }
 
-        await productService.Update(model);
-        return RedirectToAction(nameof(Index));
+        try
+        {
+            await productService.Update(model);
+            return RedirectToAction(nameof(Index));
+        }
+        catch (InvalidOperationException ex)
+        {
+            ModelState.AddModelError(nameof(model.ImageFile), ex.Message);
+            model.Categories = productService.GetCreateVM().Categories;
+            return View(model);
+        }
     }
 
     public IActionResult Delete(int id)
@@ -65,7 +90,17 @@ public class ProductController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {
-        await productService.Delete(id);
-        return RedirectToAction(nameof(Index));
+        try
+        {
+            await productService.Delete(id);
+            return RedirectToAction(nameof(Index));
+        }
+        catch (InvalidOperationException ex)
+        {
+            ViewBag.ErrorMessage = ex.Message;
+            var product = productService.GetDeleteProduct(id);
+
+            return View(product);
+        }
     }
 }

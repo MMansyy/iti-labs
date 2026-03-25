@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeEF8vsYusU6ZfT1zfVR7ywAAAAACAAAAAAAQZgAAAAEAACAAAACs4q62LI6bB8ACnT3LtOqMsxuCUo4DZr0VYwLnUCX3zgAAAAAOgAAAAAIAACAAAABeEaI9XHiLJqm6J6R1Wq/Jrdpl5v1bwMRiYJXe85nv1CAAAAD/fI6lK5oaIwk5MU5F3ajX4wsE5dIiTkx9p8Oo9A0UCEAAAAB6YFDfF4gzsxtT1E9eFohFQt3tz5E1xgiXCIl6CwsDD3vge2RwPwBaaH1ElWfCkfoQwD6sXnRwslQTnqCjD9W4</EncryptedPassword>
+    <History>True|2026-03-18T12:10:38.2025514Z||;True|2026-03-18T14:06:53.6134447+02:00||;True|2026-03-18T13:47:39.6158648+02:00||;True|2026-03-17T15:54:27.0919648+02:00||;True|2026-03-17T15:51:59.1630446+02:00||;False|2026-03-17T15:46:15.9264854+02:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="cs">
+      <Value>Server=db44943.databaseasp.net%3b Database=db44943%3b User Id=db44943%3b Password=k=5T_2Xj6Zg-%3b Encrypt=False%3b MultipleActiveResultSets=True%3b </Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Ecommerce_Project.Models.DBContext">
+      <Value>Server=db44943.databaseasp.net%3b Database=db44943%3b User Id=db44943%3b Password=k=5T_2Xj6Zg-%3b Encrypt=False%3b MultipleActiveResultSets=True%3b </Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

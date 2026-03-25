@@ -1,0 +1,44 @@
+@using Ecommerce_Project.Models
+@model List<Address>
+
+@{
+    ViewData["Title"] = "My Addresses";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1 class="h3 mb-0">My Addresses</h1>
+    <a asp-action="Create" asp-controller="Address" class="btn btn-primary btn-sm">Add Address</a>
+</div>
+
+@if (Model.Any())
+{
+    <div class="row g-3">
+        @foreach (var address in Model)
+        {
+            <div class="col-md-6">
+                <div class="card form-card p-4 h-100 @(address.IsDefault ? "border-primary" : "")">
+                    @if (address.IsDefault)
+                    {
+                        <span class="badge bg-primary mb-2" style="width:fit-content">Default</span>
+                    }
+                    <p class="mb-1 fw-semibold">@address.Street</p>
+                    <p class="mb-1 text-muted">@address.City, @address.Country</p>
+                    <p class="mb-3 text-muted">@address.Zip</p>
+                    <form asp-action="Delete" asp-controller="Address" method="post" class="d-inline">
+                        <input type="hidden" name="id" value="@address.AddressId" />
+                        <button type="submit" class="btn btn-outline-danger btn-sm"
+                                onclick="return confirm('Delete this address?')">Delete</button>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="card form-card p-5 text-center">
+        <h2 class="h5 mb-2">No addresses saved</h2>
+        <p class="text-muted mb-4">Add a shipping address to place orders.</p>
+        <a asp-action="Create" asp-controller="Address" class="btn btn-primary">Add Address</a>
+    </div>
+}

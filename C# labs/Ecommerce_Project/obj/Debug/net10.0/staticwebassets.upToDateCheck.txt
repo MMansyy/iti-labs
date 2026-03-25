@@ -61,6 +61,11 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\images\products\FileName.txt
+wwwroot\images\products\8487f658-5cde-4400-907f-447d5d3d5693.png
+wwwroot\images\products\53c63f97-d689-42fe-ab76-a3484de1d02a.png
+wwwroot\images\products\2dc7af23-2a7e-4a8e-9cb7-505105068885.png
+wwwroot\images\products\3ad31c35-cdda-4939-9d97-7ef9cc3889e0.png
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\wwwroot\css\site.css
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\wwwroot\favicon.ico
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\wwwroot\js\site.js
@@ -123,3 +128,4 @@ C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\wwwroot\lib\jquery\dist
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\Dell\Desktop\iti labs\C# labs\Ecommerce_Project\wwwroot\images\products\FileName.txt

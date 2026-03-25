@@ -1,7 +1,8 @@
 using Ecommerce_Project.Data;
 using Ecommerce_Project.Models;
 using Ecommerce_Project.Repositories;
-using Ecommerce_Project.Services;
+using Ecommerce_Project.Services.implementation;
+using Ecommerce_Project.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -46,6 +47,9 @@ namespace Ecommerce_Project
             builder.Services.AddScoped<ICartService, CartService>();
             builder.Services.AddScoped<IAdminService, AdminService>();
             builder.Services.AddScoped<IAccountService, AccountService>();
+            builder.Services.AddScoped<IOrderService, OrderService>();
+            builder.Services.AddScoped<IAddressService, AddressService>();
+            builder.Services.AddScoped<IImageService, ImageService>();
             builder.Services.AddHttpContextAccessor();
 
 
@@ -67,8 +71,12 @@ namespace Ecommerce_Project
                 app.UseHsts();
             }
 
+            app.UseStaticFiles();
+
             app.UseHttpsRedirection();
             app.UseRouting();
+
+            
 
             app.UseSession();
 

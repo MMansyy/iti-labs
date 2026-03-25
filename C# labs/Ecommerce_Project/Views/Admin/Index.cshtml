@@ -13,9 +13,8 @@
     <h2 class="h5 mb-3">Management</h2>
     <div class="d-flex flex-wrap gap-2">
         <a asp-controller="Product" asp-action="Index" class="btn btn-primary btn-sm">Manage Products</a>
-        @* <a asp-controller="Product" asp-action="Create" class="btn btn-outline-primary btn-sm">Create Product</a> *@
         <a asp-controller="Category" asp-action="Index" class="btn btn-success btn-sm">Manage Categories</a>
-        @* <a asp-controller="Category" asp-action="Create" class="btn btn-outline-success btn-sm">Create Category</a> *@
+        <a asp-controller="Admin" asp-action="Orders" class="btn btn-warning btn-sm">Manage Orders</a>
     </div>
 </div>
 
@@ -41,16 +40,36 @@
                                 <th>Customer</th>
                                 <th>Date</th>
                                 <th>Total</th>
+                                <th>Status</th>
+                                <th></th>
                             </tr>
                         </thead>
                         <tbody>
                             @foreach (var order in Model.RecentOrders)
                             {
                                 <tr>
-                                    <td>@order.OrderNum</td>
+                                    <td class="font-monospace small">@order.OrderNum[..8]…</td>
                                     <td>@(order.User?.FullName ?? order.UserId)</td>
-                                    <td>@order.OrderDate.ToString("yyyy-MM-dd")</td>
+                                    <td>@order.OrderDate.ToString("MMM dd, yyyy")</td>
                                     <td>@order.TotalAmount.ToString("C")</td>
+                                    <td>
+                                        @{
+                                            var (label, cls) = order.Status switch
+                                            {
+                                                0 => ("Pending", "bg-warning-subtle text-warning-emphasis"),
+                                                1 => ("Processing", "bg-info-subtle text-info-emphasis"),
+                                                2 => ("Shipped", "bg-primary-subtle text-primary-emphasis"),
+                                                3 => ("Delivered", "bg-success-subtle text-success-emphasis"),
+                                                4 => ("Cancelled", "bg-danger-subtle text-danger-emphasis"),
+                                                _ => ("Unknown", "bg-secondary-subtle text-secondary")
+                                            };
+                                        }
+                                        <span class="badge rounded-pill @cls">@label</span>
+                                    </td>
+                                    <td>
+                                        <a asp-controller="Order" asp-action="Details" asp-route-id="@order.OrderId" class="btn btn-outline-secondary btn-sm">View</a>
+                                        <a asp-controller="Order" asp-action="Edit" asp-route-id="@order.OrderId" class="btn btn-outline-warning btn-sm">Status</a>
+                                    </td>
                                 </tr>
                             }
                         </tbody>
@@ -88,4 +107,4 @@
             }
         </div>
     </div>
-</div>
+</div></div>

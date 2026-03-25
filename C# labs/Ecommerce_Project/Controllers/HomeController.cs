@@ -21,7 +21,6 @@ namespace Ecommerce_Project.Controllers
             {
                 ProductsCount = unitOfWork.Products.GetAll(p => p.IsActive).Count(),
                 CategoriesCount = unitOfWork.Categories.GetAll().Count(),
-                OrdersCount = unitOfWork.Orders.GetAll().Count(),
                 FeaturedProducts = unitOfWork.Products
                     .GetAll(p => p.IsActive, "Category")
                     .OrderByDescending(p => p.CreatedAt)

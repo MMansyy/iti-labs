@@ -1,0 +1,156 @@
+﻿using Ecommerce_Project.Models;
+using Ecommerce_Project.Repositories;
+using Ecommerce_Project.Views.ViewModels;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
+
+
+namespace Ecommerce_Project.Services
+{
+    public class OrderService : IOrderService
+    {
+        ICartService CartService;
+        UnitOfWork UnitOfWork;
+
+        public OrderService(ICartService cartService, UnitOfWork unitOfWork)
+        {
+            CartService = cartService;
+            UnitOfWork = unitOfWork;
+        }
+
+        public async Task CreateOrderAsync(string userId, CheckOutVM model)
+        {
+            var cart = CartService.GetCartItems();
+
+            if (cart == null || !cart.Any())
+                throw new Exception("Cart is empty");
+
+            await UnitOfWork.BeginTransactionAsync();
+
+            try
+            {
+                // Load products once
+                var productIds = cart.Select(c => c.ProductId).ToList();
+
+                var products = UnitOfWork.Products
+                    .GetAll(p => productIds.Contains(p.ProductId))
+                    .ToList();
+
+                var productDict = products.ToDictionary(p => p.ProductId);
+
+                // Validate stock
+                foreach (var item in cart)
+                {
+                    var product = productDict[item.ProductId];
+                    if (item.Quantity > product.StockQuantity)
+                        throw new Exception($"{product.Name} out of stock");
+                }
+
+                // Calculate total 
+
+                decimal total = 0;
+
+
+                foreach (var item in cart)
+                {
+                    var product = productDict[item.ProductId];
+                    total += product.Price * item.Quantity;
+                }
+
+                // Create Order
+                var order = new Order
+                {
+                    UserId = userId,
+                    ShippingAddressId = model.AddressId,
+                    TotalAmount = total,
+                    Status = 0,
+                    OrderDate = DateTime.UtcNow
+                };
+
+                UnitOfWork.Orders.Add(order);
+
+                await UnitOfWork.SaveAsync();
+
+                // Create OrderItems + Reduce Stock
+                foreach (var item in cart)
+                {
+                    var product = productDict[item.ProductId];
+
+                    var orderItem = new OrderItem
+                    {
+                        OrderId = order.OrderId,
+                        ProductId = product.ProductId,
+                        Quantity = item.Quantity,
+                        UnitPrice = product.Price
+                    };
+
+                    UnitOfWork.OrderItems.Add(orderItem);
+
+                    product.StockQuantity -= item.Quantity;
+                }
+
+                await UnitOfWork.SaveAsync();
+
+                await UnitOfWork.CommitTransactionAsync();
+
+                CartService.ClearCart();
+            }
+            catch
+            {
+                await UnitOfWork.RollbackTransactionAsync();
+                throw;
+            }
+        }
+
+
+        public Task<Order?> GetOrderDetailsAsync(int orderId, string currentUserId, string currentUserRole)
+        {
+            if (orderId < 0)
+            {
+                throw new ArgumentException("Invalid order ID");
+            }
+
+            var order = UnitOfWork.Orders.GetAll(
+                o => o.OrderId == orderId,
+                includeProperties: "OrderItems,OrderItems.Product,ShippingAddress"
+            ).FirstOrDefault();
+
+            if (order == null)
+                return null;
+
+
+
+            if (order?.UserId != currentUserId && currentUserRole != "Admin")
+            {
+                throw new UnauthorizedAccessException("You are not authorized to view this order");
+            }
+
+            return Task.FromResult(order);
+        }
+
+
+
+        public Task<List<Order>> GetUserOrdersAsync(string userId)
+        {
+            var orders = UnitOfWork.Orders.GetAll(
+                o => o.UserId == userId,
+                includeProperties: "OrderItems,OrderItems.Product,ShippingAddress"
+            ).ToList();
+            return Task.FromResult(orders);
+
+        }
+
+        public async Task UpdateOrderStatusAsync(int orderId, int status)
+        {
+            var order = UnitOfWork.Orders.GetById(orderId);
+            if (order == null)
+                throw new Exception("Order not found");
+
+            order.Status = status;
+
+            UnitOfWork.Orders.Update(order);
+            await UnitOfWork.SaveAsync();
+
+        }
+    }
+}

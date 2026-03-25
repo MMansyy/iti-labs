@@ -1,5 +1,5 @@
 ﻿using Ecommerce_Project.Models;
-using Ecommerce_Project.Services;
+using Ecommerce_Project.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

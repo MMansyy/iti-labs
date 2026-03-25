@@ -1,0 +1,87 @@
+// 1. Configuration & Constants (Avoid Magic Numbers)
+
+
+// 2. Validation Helper Functions (Single Responsibility & Meaningful Names)
+const isNotEmpty = (value) => {
+    return value.trim() !== "";
+};
+
+const isValidEmail = (email) => {
+    // Regular expression for basic email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+};
+
+const isPasswordStrong = (password) => {
+    return password.length >= 8;
+};
+
+const isUsernameValid = (username) => {
+    return username.length >= 3;
+};
+
+const doPasswordsMatch = (password, confirmPassword) => {
+    return password === confirmPassword;
+};
+
+// 3. Main Form Validation Logic
+const validateRegistrationForm = (formData) => {
+    const errors = {}; // Object to collect all errors
+
+    // Fail Fast / Early Returns logic within the checks
+    if (!isNotEmpty(formData.fullName)) {
+        errors.fullName = "Full name is required.";
+    }
+
+    if (!isNotEmpty(formData.email) || !isValidEmail(formData.email)) {
+        errors.email = "Please enter a valid email address.";
+    }
+
+    if (!isNotEmpty(formData.username) || !isUsernameValid(formData.username)) {
+        errors.username = `Username must be at least 3 characters long.`;
+    }
+
+    if (!isNotEmpty(formData.password) || !isPasswordStrong(formData.password)) {
+        errors.password = `Password must be at least 8 characters.`;
+    }
+
+    if (!doPasswordsMatch(formData.password, formData.confirmPassword)) {
+        errors.confirmPassword = "Passwords do not match.";
+    }
+
+    return {
+        isValid: Object.keys(errors).length === 0,
+        errors: errors
+    };
+};
+
+// 4. Event Listener (Separation of Concerns)
+document.addEventListener("DOMContentLoaded", () => {
+    const form = document.getElementById("customRegisterForm");
+
+    if (form) {
+        form.addEventListener("submit", (event) => {
+            event.preventDefault(); // Prevent default submission
+
+            // Gather data
+            const formData = {
+                fullName: form.fullName.value,
+                email: form.email.value,
+                username: form.username.value,
+                password: form.password.value,
+                confirmPassword: form.confirmPassword.value
+            };
+
+            // Validate
+            const validationResult = validateRegistrationForm(formData);
+
+            if (validationResult.isValid) {
+                console.log("Form is valid! Ready to send to server:", formData);
+                // Proceed with API call (e.g., using fetch)
+            } else {
+                console.log(validationResult.errors);
+                // Here you would trigger a function to show these errors in the UI
+            }
+        });
+    }
+});

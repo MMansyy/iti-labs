@@ -1,0 +1,155 @@
+@model SettingsVM
+
+@{
+    ViewData["Title"] = "My Account";
+
+    string settingsUrl = Url.Action("Settings", "Account")!;
+    string addAddressUrl = Url.Action("Create", "Address", new { returnUrl = Url.Action("Settings", "Account", new { tab = "addresses" }) })!;
+
+    string StatusLabel(int s) => s switch
+    {
+        0 => "Pending",
+        1 => "Processing",
+        2 => "Shipped",
+        3 => "Delivered",
+        4 => "Cancelled",
+        _ => "Unknown"
+    };
+
+    string StatusClass(int s) => s switch
+    {
+        0 => "bg-warning-subtle text-warning-emphasis",
+        1 => "bg-info-subtle text-info-emphasis",
+        2 => "bg-primary-subtle text-primary-emphasis",
+        3 => "bg-success-subtle text-success-emphasis",
+        4 => "bg-danger-subtle text-danger-emphasis",
+        _ => "bg-secondary-subtle text-secondary"
+    };
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1 class="h3 mb-0">My Account</h1>
+    <a asp-controller="Catalog" asp-action="Index" class="btn btn-outline-secondary btn-sm">Continue Shopping</a>
+</div>
+
+<ul class="nav nav-tabs mb-4" id="settingsTabs" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button class="nav-link @(Model.ActiveTab == "orders" ? "active" : "")"
+                id="orders-tab" data-bs-toggle="tab" data-bs-target="#orders"
+                type="button" role="tab">
+            My Orders
+            @if (Model.Orders.Any())
+            {
+                <span class="badge bg-primary ms-1">@Model.Orders.Count</span>
+            }
+        </button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link @(Model.ActiveTab == "addresses" ? "active" : "")"
+                id="addresses-tab" data-bs-toggle="tab" data-bs-target="#addresses"
+                type="button" role="tab">
+            My Addresses
+            @if (Model.Addresses.Any())
+            {
+                <span class="badge bg-secondary ms-1">@Model.Addresses.Count</span>
+            }
+        </button>
+    </li>
+</ul>
+
+<div class="tab-content" id="settingsTabContent">
+
+    <div class="tab-pane fade @(Model.ActiveTab == "orders" ? "show active" : "")"
+         id="orders" role="tabpanel">
+
+        @if (Model.Orders.Any())
+        {
+            <div class="card form-card p-3">
+                <div class="table-responsive">
+                    <table class="table align-middle mb-0">
+                        <thead>
+                            <tr>
+                                <th>Order #</th>
+                                <th>Date</th>
+                                <th>Items</th>
+                                <th>Total</th>
+                                <th>Status</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var order in Model.Orders)
+                            {
+                                <tr>
+                                    <td class="font-monospace small">@order.OrderNum[..8]…</td>
+                                    <td>@order.OrderDate.ToString("MMM dd, yyyy")</td>
+                                    <td>@order.OrderItems.Count item(s)</td>
+                                    <td class="fw-semibold">@order.TotalAmount.ToString("C")</td>
+                                    <td>
+                                        <span class="badge rounded-pill @StatusClass(order.Status)">@StatusLabel(order.Status)</span>
+                                    </td>
+                                    <td>
+                                        <a asp-controller="Order" asp-action="Details"
+                                           asp-route-id="@order.OrderId"
+                                           class="btn btn-outline-secondary btn-sm">View</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="card form-card p-5 text-center">
+                <h2 class="h5 mb-2">No orders yet</h2>
+                <p class="text-muted mb-4">You haven't placed any orders.</p>
+                <a asp-controller="Catalog" asp-action="Index" class="btn btn-primary">Start Shopping</a>
+            </div>
+        }
+    </div>
+
+    <div class="tab-pane fade @(Model.ActiveTab == "addresses" ? "show active" : "")"
+         id="addresses" role="tabpanel">
+
+        <div class="d-flex justify-content-end mb-3">
+            <a href="@addAddressUrl" class="btn btn-primary btn-sm">+ Add Address</a>
+        </div>
+
+        @if (Model.Addresses.Any())
+        {
+            <div class="row g-3">
+                @foreach (var address in Model.Addresses)
+                {
+                    <div class="col-md-6">
+                        <div class="card form-card p-4 h-100 @(address.IsDefault ? "border-primary" : "")">
+                            @if (address.IsDefault)
+                            {
+                                <span class="badge bg-primary mb-2" style="width:fit-content">Default</span>
+                            }
+                            <p class="mb-1 fw-semibold">@address.Street</p>
+                            <p class="mb-1 text-muted">@address.City, @address.Country</p>
+                            <p class="mb-3 text-muted small">ZIP: @address.Zip</p>
+                            <form asp-action="Delete" asp-controller="Address" method="post" class="d-inline">
+                                <input type="hidden" name="id" value="@address.AddressId" />
+                                <input type="hidden" name="returnUrl" value="@Url.Action("Settings", "Account", new { tab = "addresses" })" />
+                                <button type="submit" class="btn btn-outline-danger btn-sm"
+                                        onclick="return confirm('Delete this address?')">Delete</button>
+                            </form>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="card form-card p-5 text-center">
+                <h2 class="h5 mb-2">No addresses saved</h2>
+                <p class="text-muted mb-4">Add a shipping address to place orders.</p>
+                <a href="@addAddressUrl" class="btn btn-primary">Add Address</a>
+            </div>
+        }
+    </div>
+
+</div>

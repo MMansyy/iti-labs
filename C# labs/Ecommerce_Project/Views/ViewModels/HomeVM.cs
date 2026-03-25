@@ -6,7 +6,6 @@ namespace Ecommerce_Project.Views.ViewModels
     {
         public int ProductsCount { get; set; }
         public int CategoriesCount { get; set; }
-        public int OrdersCount { get; set; }
         public List<Product> FeaturedProducts { get; set; } = new();
         public List<Category> TopCategories { get; set; } = new();
     }

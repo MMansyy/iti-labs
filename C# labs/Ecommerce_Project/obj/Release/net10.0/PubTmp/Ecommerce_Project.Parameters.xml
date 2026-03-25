@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="site59463" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Dell\\Desktop\\iti\ labs\\C\#\ labs\\Ecommerce_Project\\obj\\Release\\net10\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="Ecommerce_Project.Models.DBContext" description="" value="Server=db44943.databaseasp.net; Database=db44943; User Id=db44943; Password=k=5T_2Xj6Zg-; Encrypt=False; MultipleActiveResultSets=True; " tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Dell\\Desktop\\iti\ labs\\C\#\ labs\\Ecommerce_Project\\obj\\Release\\net10\.0\\PubTmp\\EFSQLScripts\\Ecommerce_Project\.Models\.DBContext\.sql$" />
+  </parameter>
+</parameters>

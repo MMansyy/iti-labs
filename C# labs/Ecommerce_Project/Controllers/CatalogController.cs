@@ -1,4 +1,4 @@
-﻿using Ecommerce_Project.Services;
+﻿using Ecommerce_Project.Services.Interfaces;
 using Ecommerce_Project.Views.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
