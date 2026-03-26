@@ -16,7 +16,7 @@ public class CatalogService : ICatalogService
         var query = unitOfWork.Products.GetAll(null, "Category");
         var categories = unitOfWork.Categories.GetAll();
 
-        int pageSize = 10;
+        int pageSize = 9;
 
         // Filter
         if (model.CategoryId != null)

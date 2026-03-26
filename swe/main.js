@@ -1,7 +1,4 @@
-// 1. Configuration & Constants (Avoid Magic Numbers)
-
-
-// 2. Validation Helper Functions (Single Responsibility & Meaningful Names)
+// 1. Validation Helper Functions (Single Responsibility & Meaningful Names)
 const isNotEmpty = (value) => {
     return value.trim() !== "";
 };
@@ -24,7 +21,7 @@ const doPasswordsMatch = (password, confirmPassword) => {
     return password === confirmPassword;
 };
 
-// 3. Main Form Validation Logic
+// 2. Main Form Validation Logic
 const validateRegistrationForm = (formData) => {
     const errors = {}; // Object to collect all errors
 
@@ -55,13 +52,13 @@ const validateRegistrationForm = (formData) => {
     };
 };
 
-// 4. Event Listener (Separation of Concerns)
+// 3. Event Listener (Separation of Concerns)
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("customRegisterForm");
 
     if (form) {
         form.addEventListener("submit", (event) => {
-            event.preventDefault(); // Prevent default submission
+            event.preventDefault();
 
             // Gather data
             const formData = {
@@ -76,11 +73,9 @@ document.addEventListener("DOMContentLoaded", () => {
             const validationResult = validateRegistrationForm(formData);
 
             if (validationResult.isValid) {
-                console.log("Form is valid! Ready to send to server:", formData);
-                // Proceed with API call (e.g., using fetch)
+                console.log("Form is valid", formData);
             } else {
                 console.log(validationResult.errors);
-                // Here you would trigger a function to show these errors in the UI
             }
         });
     }

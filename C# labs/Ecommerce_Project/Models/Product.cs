@@ -12,7 +12,7 @@ namespace Ecommerce_Project.Models
         public int CategoryId { get; set; }
 
         [Required]
-        [StringLength(40)]
+        [StringLength(100)]
         public string Name { get; set; } = string.Empty;
 
 

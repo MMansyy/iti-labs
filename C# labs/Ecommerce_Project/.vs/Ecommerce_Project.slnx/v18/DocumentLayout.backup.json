@@ -3,32 +3,53 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\services\\implementation\\catalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:services\\implementation\\catalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\services\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:services\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Migrations\\20260326015549_finall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260326015549_finall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./MVC_ECOMMERCE/True/SqlTable/dbo.Categories.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./MVC_ECOMMERCE/True/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./MVC_ECOMMERCE/True/SqlTable/dbo.Orders.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\views\\catalog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:views\\catalog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\wwwroot\\images\\products\\filename.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:wwwroot\\images\\products\\filename.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\ecommerce_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:ecommerce_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\wwwroot\\images\\products\\filename.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:wwwroot\\images\\products\\filename.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\services\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:services\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +70,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\views\\viewmodels\\productdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:views\\viewmodels\\productdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC6E7FDC-82FB-1EA5-DEFA-03F4B0EAE349}|Ecommerce_Project.csproj|c:\\users\\dell\\desktop\\iti labs\\c# labs\\ecommerce_project\\services\\implementation\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,11 +111,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CatalogService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Services\\implementation\\CatalogService.cs",
+              "RelativeDocumentMoniker": "Services\\implementation\\CatalogService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Services\\implementation\\CatalogService.cs",
+              "RelativeToolTip": "Services\\implementation\\CatalogService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwBIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T01:57:28.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260326015549_finall.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Migrations\\20260326015549_finall.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260326015549_finall.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Migrations\\20260326015549_finall.cs",
+              "RelativeToolTip": "Migrations\\20260326015549_finall.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T01:55:49.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Categories [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./MVC_ECOMMERCE/True/SqlTable/dbo.Categories.sql",
+              "ToolTip": "dbo.Categories [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-26T01:50:49.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.Orders [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./MVC_ECOMMERCE/True/SqlTable/dbo.Orders.sql",
+              "ToolTip": "dbo.Orders [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-26T01:50:44.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "dbo.Products [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./MVC_ECOMMERCE/True/SqlTable/dbo.Products.sql",
+              "ToolTip": "dbo.Products [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-26T01:50:37.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "FileName.txt",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\wwwroot\\images\\products\\FileName.txt",
               "RelativeDocumentMoniker": "wwwroot\\images\\products\\FileName.txt",
@@ -106,11 +179,12 @@
               "RelativeToolTip": "wwwroot\\images\\products\\FileName.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-03-19T01:18:04.904Z"
+              "WhenOpened": "2026-03-19T01:18:04.904Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Ecommerce_Project.csproj",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Ecommerce_Project.csproj",
               "RelativeDocumentMoniker": "Ecommerce_Project.csproj",
@@ -118,11 +192,12 @@
               "RelativeToolTip": "Ecommerce_Project.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-19T01:17:01.995Z"
+              "WhenOpened": "2026-03-19T01:17:01.995Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Views\\Product\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Delete.cshtml",
@@ -130,11 +205,12 @@
               "RelativeToolTip": "Views\\Product\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-18T12:53:00.43Z"
+              "WhenOpened": "2026-03-18T12:53:00.43Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
@@ -142,11 +218,12 @@
               "RelativeToolTip": "Controllers\\ProductController.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAgwGYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T11:38:51.063Z"
+              "WhenOpened": "2026-03-18T11:38:51.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Views\\Catalog\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Catalog\\Details.cshtml",
@@ -154,11 +231,12 @@
               "RelativeToolTip": "Views\\Catalog\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-18T11:38:34.872Z"
+              "WhenOpened": "2026-03-18T11:38:34.872Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Views\\Product\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Edit.cshtml",
@@ -166,11 +244,12 @@
               "RelativeToolTip": "Views\\Product\\Edit.cshtml",
               "ViewState": "AgIAAFAAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-18T11:38:02.404Z"
+              "WhenOpened": "2026-03-18T11:38:02.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Create.cshtml",
@@ -178,11 +257,12 @@
               "RelativeToolTip": "Views\\Product\\Create.cshtml",
               "ViewState": "AgIAAEgAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-18T11:37:44.454Z"
+              "WhenOpened": "2026-03-18T11:37:44.454Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Services\\implementation\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\implementation\\ProductService.cs",
@@ -190,11 +270,12 @@
               "RelativeToolTip": "Services\\implementation\\ProductService.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAowF8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T11:37:04.125Z"
+              "WhenOpened": "2026-03-18T11:37:04.125Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "ProductVM.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Views\\ViewModels\\ProductVM.cs",
               "RelativeDocumentMoniker": "Views\\ViewModels\\ProductVM.cs",
@@ -202,11 +283,12 @@
               "RelativeToolTip": "Views\\ViewModels\\ProductVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T11:31:48.126Z"
+              "WhenOpened": "2026-03-18T11:31:48.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "ProductDetailsVM.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Views\\ViewModels\\ProductDetailsVM.cs",
               "RelativeDocumentMoniker": "Views\\ViewModels\\ProductDetailsVM.cs",
@@ -214,23 +296,25 @@
               "RelativeToolTip": "Views\\ViewModels\\ProductDetailsVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T11:31:41.858Z"
+              "WhenOpened": "2026-03-18T11:31:41.858Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Models\\Product.cs",
               "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAkwCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T11:29:17.696Z"
+              "WhenOpened": "2026-03-18T11:29:17.696Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "IImageService.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Services\\Interfaces\\IImageService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IImageService.cs",
@@ -238,11 +322,12 @@
               "RelativeToolTip": "Services\\Interfaces\\IImageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T11:11:15.528Z"
+              "WhenOpened": "2026-03-18T11:11:15.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "AccountService.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Services\\implementation\\AccountService.cs",
               "RelativeDocumentMoniker": "Services\\implementation\\AccountService.cs",
@@ -250,11 +335,12 @@
               "RelativeToolTip": "Services\\implementation\\AccountService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T11:08:49.291Z"
+              "WhenOpened": "2026-03-18T11:08:49.291Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "IAccountService.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Services\\Interfaces\\IAccountService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IAccountService.cs",
@@ -262,24 +348,25 @@
               "RelativeToolTip": "Services\\Interfaces\\IAccountService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T11:07:32.679Z"
+              "WhenOpened": "2026-03-18T11:07:32.679Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAowEoAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAowEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T14:00:57.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "DBContext.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Models\\DBContext.cs",
               "RelativeDocumentMoniker": "Models\\DBContext.cs",
@@ -287,11 +374,12 @@
               "RelativeToolTip": "Models\\DBContext.cs",
               "ViewState": "AgIAADYAAAAAAAAAAADwv04AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T14:00:51.164Z"
+              "WhenOpened": "2026-03-17T14:00:51.164Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "_ProductCard.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Views\\Shared\\_ProductCard.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ProductCard.cshtml",
@@ -299,11 +387,12 @@
               "RelativeToolTip": "Views\\Shared\\_ProductCard.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T12:44:34.65Z"
+              "WhenOpened": "2026-03-17T12:44:34.65Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -311,11 +400,12 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAADIAAAAAAAAAAAAAAEMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T12:42:28.822Z"
+              "WhenOpened": "2026-03-17T12:42:28.822Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "HomeVM.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Views\\ViewModels\\HomeVM.cs",
               "RelativeDocumentMoniker": "Views\\ViewModels\\HomeVM.cs",
@@ -323,11 +413,12 @@
               "RelativeToolTip": "Views\\ViewModels\\HomeVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T12:42:09.078Z"
+              "WhenOpened": "2026-03-17T12:42:09.078Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -335,11 +426,12 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T12:41:46.091Z"
+              "WhenOpened": "2026-03-17T12:41:46.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "AddressController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\C# labs\\Ecommerce_Project\\Controllers\\AddressController.cs",
               "RelativeDocumentMoniker": "Controllers\\AddressController.cs",
@@ -347,7 +439,8 @@
               "RelativeToolTip": "Controllers\\AddressController.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T12:39:33.554Z"
+              "WhenOpened": "2026-03-17T12:39:33.554Z",
+              "EditorCaption": ""
             }
           ]
         }
