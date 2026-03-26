@@ -1,3 +1,15 @@
+// 1 Meaningful Variable and Function Names
+// 2 Keep Functions and Methods Short
+// 3 Comments and Documentation
+// 4 Consistent Formatting and Indentation
+// 5 DRY Principle (Don’t Repeat Yourself)
+// 6 Use Meaningful Whitespace
+// 7 Proper Error Handling
+// 8 Testing
+// 9 Refactoring
+// 10 Version Control
+
+
 // 1. Validation Helper Functions (Single Responsibility & Meaningful Names)
 const isNotEmpty = (value) => {
     return value.trim() !== "";
