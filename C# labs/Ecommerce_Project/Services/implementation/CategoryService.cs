@@ -32,7 +32,12 @@ namespace Ecommerce_Project.Services.implementation
             var category = unitOfWork.Categories
                 .GetAll(c => c.CategoryId == id)
                 .FirstOrDefault();
+
             if (category == null) return;
+
+            var production = unitOfWork.Products.GetAll(c => c.CategoryId == id).Any();
+
+            if (production) throw new Exception("Cannot delete category with associated products");
             unitOfWork.Categories.Delete(id);
             await unitOfWork.SaveAsync();
         }
@@ -49,7 +54,7 @@ namespace Ecommerce_Project.Services.implementation
             if (category == null) throw new Exception("Category not found");
             return category;
         }
-   
+
 
         public async Task Update(Category model)
         {

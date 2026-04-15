@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2E7FB9-D7A9-B853-3483-38797991D2C5}|Lab-2.dwproj|C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-2\\SalesCube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{CC2E7FB9-D7A9-B853-3483-38797991D2C5}|Lab-2.dwproj|solutionrelative:SalesCube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2E7FB9-D7A9-B853-3483-38797991D2C5}|Lab-2.dwproj|C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-2\\ProdCustCube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{CC2E7FB9-D7A9-B853-3483-38797991D2C5}|Lab-2.dwproj|solutionrelative:ProdCustCube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2E7FB9-D7A9-B853-3483-38797991D2C5}|Lab-2.dwproj|C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-2\\ProductCube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{CC2E7FB9-D7A9-B853-3483-38797991D2C5}|Lab-2.dwproj|solutionrelative:ProductCube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesCube.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-2\\SalesCube.cube",
+              "RelativeDocumentMoniker": "SalesCube.cube",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-2\\SalesCube.cube [Design]",
+              "RelativeToolTip": "SalesCube.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-31T19:37:07.788Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdCustCube.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-2\\ProdCustCube.cube",
+              "RelativeDocumentMoniker": "ProdCustCube.cube",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-2\\ProdCustCube.cube [Design]",
+              "RelativeToolTip": "ProdCustCube.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-31T19:06:10.452Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductCube.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-2\\ProductCube.cube",
+              "RelativeDocumentMoniker": "ProductCube.cube",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-2\\ProductCube.cube [Design]",
+              "RelativeToolTip": "ProductCube.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-31T18:47:00.319Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

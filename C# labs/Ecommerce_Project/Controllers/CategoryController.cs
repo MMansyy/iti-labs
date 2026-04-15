@@ -77,8 +77,19 @@ namespace Ecommerce_Project.Controllers
         [ActionName("Delete")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            await categoryService.Delete(id);
-            return RedirectToAction(nameof(Index));
+            try
+            {
+
+                await categoryService.Delete(id);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                ViewBag.ErrorMessage = ex.Message;
+                var category = categoryService.GetCategory(id);
+                return View(category);
+
+            }
         }
 
     }

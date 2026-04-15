@@ -64,6 +64,12 @@ namespace Ecommerce_Project.Services.implementation
             if (address == null)
                 throw new Exception("Address not found");
 
+
+            var orders = unitOfWork.Orders.GetAll(o => o.ShippingAddressId == addressId).Any();
+
+            if (orders)
+                throw new Exception("Cannot delete address associated with orders");
+
             unitOfWork.Addresses.Delete(addressId);
             await unitOfWork.SaveAsync();
         }

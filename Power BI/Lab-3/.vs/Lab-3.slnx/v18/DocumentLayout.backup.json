@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report7.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|solutionrelative:Report7.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report6.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|solutionrelative:Report6.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report5.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|solutionrelative:Report5.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report4.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|solutionrelative:Report4.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|solutionrelative:Report3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report2.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|solutionrelative:Report2.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|solutionrelative:Report1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report8.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{E44E1C14-E491-6F94-F2BB-F800AC7D548F}|Lab-3.rptproj|solutionrelative:Report8.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Report8.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report8.rdl",
+              "RelativeDocumentMoniker": "Report8.rdl",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report8.rdl [Design]",
+              "RelativeToolTip": "Report8.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T20:13:16.614Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Report7.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report7.rdl",
+              "RelativeDocumentMoniker": "Report7.rdl",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report7.rdl [Design]",
+              "RelativeToolTip": "Report7.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T19:58:22.486Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Report6.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report6.rdl",
+              "RelativeDocumentMoniker": "Report6.rdl",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report6.rdl [Design]",
+              "RelativeToolTip": "Report6.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T19:46:20.784Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Report5.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report5.rdl",
+              "RelativeDocumentMoniker": "Report5.rdl",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report5.rdl [Design]",
+              "RelativeToolTip": "Report5.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T19:40:00.756Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Report4.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report4.rdl",
+              "RelativeDocumentMoniker": "Report4.rdl",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report4.rdl [Design]",
+              "RelativeToolTip": "Report4.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T19:29:04.086Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Report3.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report3.rdl",
+              "RelativeDocumentMoniker": "Report3.rdl",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report3.rdl [Design]",
+              "RelativeToolTip": "Report3.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T19:12:00.111Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Report2.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report2.rdl",
+              "RelativeDocumentMoniker": "Report2.rdl",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report2.rdl [Design]",
+              "RelativeToolTip": "Report2.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T18:55:27.367Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Report1.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report1.rdl",
+              "RelativeDocumentMoniker": "Report1.rdl",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\Power BI\\Lab-3\\Report1.rdl [Design]",
+              "RelativeToolTip": "Report1.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T16:25:23.998Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

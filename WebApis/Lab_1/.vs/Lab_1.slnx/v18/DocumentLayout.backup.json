@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A501847-93B0-782A-D1CD-72AA6C89511F}|Lab_1.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_1\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A501847-93B0-782A-D1CD-72AA6C89511F}|Lab_1.csproj|solutionrelative:controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A501847-93B0-782A-D1CD-72AA6C89511F}|Lab_1.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_1\\repos\\courserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A501847-93B0-782A-D1CD-72AA6C89511F}|Lab_1.csproj|solutionrelative:repos\\courserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./WebApis_Lab_1/True/SqlTable/dbo.Courses.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A501847-93B0-782A-D1CD-72AA6C89511F}|Lab_1.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_1\\repos\\icourserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A501847-93B0-782A-D1CD-72AA6C89511F}|Lab_1.csproj|solutionrelative:repos\\icourserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A501847-93B0-782A-D1CD-72AA6C89511F}|Lab_1.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_1\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A501847-93B0-782A-D1CD-72AA6C89511F}|Lab_1.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A501847-93B0-782A-D1CD-72AA6C89511F}|Lab_1.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_1\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A501847-93B0-782A-D1CD-72AA6C89511F}|Lab_1.csproj|solutionrelative:models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICourseRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Repos\\ICourseRepo.cs",
+              "RelativeDocumentMoniker": "Repos\\ICourseRepo.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Repos\\ICourseRepo.cs",
+              "RelativeToolTip": "Repos\\ICourseRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T13:52:09.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.Courses [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./WebApis_Lab_1/True/SqlTable/dbo.Courses.sql",
+              "ToolTip": "dbo.Courses [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-14T13:51:57.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Repos\\CourseRepo.cs",
+              "RelativeDocumentMoniker": "Repos\\CourseRepo.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Repos\\CourseRepo.cs",
+              "RelativeToolTip": "Repos\\CourseRepo.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T13:34:30.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "Controllers\\CoursesController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T12:52:55.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T12:32:39.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Models\\DBContext.cs",
+              "RelativeDocumentMoniker": "Models\\DBContext.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Models\\DBContext.cs",
+              "RelativeToolTip": "Models\\DBContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T12:29:56.243Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

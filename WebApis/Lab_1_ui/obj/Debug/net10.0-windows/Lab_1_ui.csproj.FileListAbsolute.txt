@@ -1,0 +1,17 @@
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\bin\Debug\net10.0-windows\Lab_1_ui.exe
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\bin\Debug\net10.0-windows\Lab_1_ui.deps.json
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\bin\Debug\net10.0-windows\Lab_1_ui.runtimeconfig.json
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\bin\Debug\net10.0-windows\Lab_1_ui.dll
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\bin\Debug\net10.0-windows\Lab_1_ui.pdb
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\obj\Debug\net10.0-windows\Lab_1_ui.Form1.resources
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\obj\Debug\net10.0-windows\Lab_1_ui.csproj.GenerateResource.cache
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\obj\Debug\net10.0-windows\Lab_1_ui.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\obj\Debug\net10.0-windows\Lab_1_ui.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\obj\Debug\net10.0-windows\Lab_1_ui.AssemblyInfo.cs
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\obj\Debug\net10.0-windows\Lab_1_ui.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\obj\Debug\net10.0-windows\Lab_1_ui.sourcelink.json
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\obj\Debug\net10.0-windows\Lab_1_ui.dll
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\obj\Debug\net10.0-windows\refint\Lab_1_ui.dll
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\obj\Debug\net10.0-windows\Lab_1_ui.pdb
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\obj\Debug\net10.0-windows\Lab_1_ui.genruntimeconfig.cache
+C:\Users\Dell\Desktop\iti labs\WebApis\Lab_1_ui\obj\Debug\net10.0-windows\ref\Lab_1_ui.dll

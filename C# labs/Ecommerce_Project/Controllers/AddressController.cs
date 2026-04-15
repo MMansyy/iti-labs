@@ -67,7 +67,10 @@ namespace Ecommerce_Project.Controllers
             {
                 await addressService.DeleteAsync(id, CurrentUserId);
             }
-            catch { }
+            catch (Exception ex) {
+                ViewBag.ErrorMessage = ex.Message;
+                return RedirectToAction("Settings", "Account", new { tab = "addresses" });
+            }
 
             if (!string.IsNullOrEmpty(returnUrl) && Url.IsLocalUrl(returnUrl))
                 return Redirect(returnUrl);
