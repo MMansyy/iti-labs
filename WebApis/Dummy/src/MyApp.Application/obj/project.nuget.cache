@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wXbyxJFai5k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Dummy\\src\\MyApp.Application\\MyApp.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.6\\microsoft.extensions.dependencyinjection.abstractions.10.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

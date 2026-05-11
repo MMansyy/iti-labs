@@ -1,0 +1,11 @@
+F:\Mohamed\SOLID\Project\SOLID_Cases\obj\Debug\SOLID_Cases.csproj.AssemblyReference.cache
+F:\Mohamed\SOLID\Project\SOLID_Cases\obj\Debug\SOLID_Cases.csproj.CoreCompileInputs.cache
+F:\Mohamed\SOLID\Project\SOLID_Cases\obj\Debug\SOLID.exe
+F:\Mohamed\SOLID\Project\SOLID_Cases\obj\Debug\SOLID.pdb
+F:\Mohamed\SOLID\Project\SOLID_Cases\bin\Debug\SOLID.exe.config
+F:\Mohamed\SOLID\Project\SOLID_Cases\bin\Debug\SOLID.exe
+F:\Mohamed\SOLID\Project\SOLID_Cases\bin\Debug\SOLID.pdb
+C:\Users\Dell\Desktop\iti labs\SOLID\Lab_1\SOLID_Cases_Lab\obj\Debug\SOLID_Cases.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\iti labs\SOLID\Lab_1\SOLID_Cases_Lab\obj\Debug\SOLID_Cases.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\iti labs\SOLID\Lab_1\SOLID_Cases_Lab\obj\Debug\SOLID.exe
+C:\Users\Dell\Desktop\iti labs\SOLID\Lab_1\SOLID_Cases_Lab\obj\Debug\SOLID.pdb

@@ -1,0 +1,21 @@
+﻿@MyApp.API_HostAddress = http://localhost:5101
+
+GET {{MyApp.API_HostAddress}}/api/students
+Accept: application/json
+
+###
+
+GET {{MyApp.API_HostAddress}}/api/students/1
+Accept: application/json
+
+###
+
+POST {{MyApp.API_HostAddress}}/api/students
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "age": 21
+}
+
+###

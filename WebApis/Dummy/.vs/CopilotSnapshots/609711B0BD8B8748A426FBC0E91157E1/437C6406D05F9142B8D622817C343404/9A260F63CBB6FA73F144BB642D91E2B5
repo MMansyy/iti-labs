@@ -1,0 +1,13 @@
+﻿using MyApp.Application.DTOs;
+
+namespace MyApp.Application.Services;
+
+// Application service contract for student use cases.
+public interface IStudentService
+{
+    Task<IEnumerable<StudentDto>> GetAllStudentsAsync(CancellationToken cancellationToken = default);
+
+    Task<StudentDto?> GetStudentByIdAsync(int id, CancellationToken cancellationToken = default);
+
+    Task<StudentDto> CreateStudentAsync(CreateStudentDto createStudentDto, CancellationToken cancellationToken = default);
+}

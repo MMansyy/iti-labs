@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5A501847-93B0-782A-D1CD-72AA6C89511F}|Lab_1.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A501847-93B0-782A-D1CD-72AA6C89511F}|Lab_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5A501847-93B0-782A-D1CD-72AA6C89511F}|Lab_1.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_1\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A501847-93B0-782A-D1CD-72AA6C89511F}|Lab_1.csproj|solutionrelative:controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,11 +37,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:19:17.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ICourseRepo.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Repos\\ICourseRepo.cs",
               "RelativeDocumentMoniker": "Repos\\ICourseRepo.cs",
@@ -45,22 +62,20 @@
               "RelativeToolTip": "Repos\\ICourseRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T13:52:09.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-14T13:52:09.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Courses.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./WebApis_Lab_1/True/SqlTable/dbo.Courses.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/./WebApis_Lab_1/True/SqlTable/dbo.Courses.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-14T13:51:57.895Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "dbo.Courses [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/./WebApis_Lab_1/True/SqlTable/dbo.Courses.sql",
-              "ToolTip": "dbo.Courses [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-04-14T13:51:57.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "CourseRepo.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Repos\\CourseRepo.cs",
               "RelativeDocumentMoniker": "Repos\\CourseRepo.cs",
@@ -68,12 +83,11 @@
               "RelativeToolTip": "Repos\\CourseRepo.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAkwCMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T13:34:30.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-14T13:34:30.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CoursesController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "Controllers\\CoursesController.cs",
@@ -81,12 +95,11 @@
               "RelativeToolTip": "Controllers\\CoursesController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T12:52:55.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-14T12:52:55.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Models\\Course.cs",
               "RelativeDocumentMoniker": "Models\\Course.cs",
@@ -94,12 +107,11 @@
               "RelativeToolTip": "Models\\Course.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T12:32:39.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-14T12:32:39.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DBContext.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_1\\Models\\DBContext.cs",
               "RelativeDocumentMoniker": "Models\\DBContext.cs",
@@ -107,8 +119,7 @@
               "RelativeToolTip": "Models\\DBContext.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAQwBQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T12:29:56.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-14T12:29:56.243Z"
             }
           ]
         }

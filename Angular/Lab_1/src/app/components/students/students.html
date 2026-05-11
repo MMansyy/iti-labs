@@ -1,0 +1,69 @@
+<div class="p-6 max-w-5xl mx-auto">
+
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-5 mb-6 flex items-end gap-4">
+        <div class="flex-1">
+            <label class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+            <input pInputText type="text" [(ngModel)]="newStudentObj.name"
+                class="w-full border border-gray-300 rounded-md p-2" placeholder="Enter student name">
+        </div>
+        <div class="w-32">
+            <label class="block text-sm font-medium text-gray-700 mb-1">Age</label>
+            <input pInputText type="number" [(ngModel)]="newStudentObj.age"
+                class="w-full border border-gray-300 rounded-md p-2" placeholder="Age">
+        </div>
+        <p-button label="Add Student" icon="pi pi-plus" (onClick)="addNew()"
+            [disabled]="!newStudentObj.name || !newStudentObj.age"></p-button>
+    </div>
+
+    @if (studentsList.length > 0) {
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+        <p-table [value]="studentsList">
+            <ng-template #header>
+                <tr class="bg-gray-50 border-b border-gray-200 text-gray-700">
+                    <th class="p-4 text-left font-semibold">ID</th>
+                    <th class="p-4 text-left font-semibold">Name</th>
+                    <th class="p-4 text-left font-semibold">Age</th>
+                    <th class="p-4 text-center font-semibold">Actions</th>
+                </tr>
+            </ng-template>
+            <ng-template #body let-student>
+                <tr [ngStyle]="{'background-color': student.age > 30 ? '#fee2e2' : 'transparent'}">
+                    <td class="p-4">{{ student.id }}</td>
+                    <td class="p-4 font-medium">{{ student.name }}</td>
+                    <td class="p-4"
+                        [ngStyle]="{'color': student.age > 30 ? 'red' : 'black', 'font-weight': student.age > 30 ? 'bold' : 'normal'}">
+                        {{ student.age }}</td>
+                    <td class="p-4 flex justify-center gap-2">
+                        <p-button label="Edit" severity="info" (onClick)="openUpdateDialog(student)"></p-button>
+                        <p-button label="Delete" severity="danger" (onClick)="deleteStudent(student.id)"></p-button>
+                    </td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+    } @else {
+    <div class="p-8 text-center bg-gray-50 rounded-xl border border-dashed border-gray-300">
+        <p class="text-gray-500 text-lg">No students found.</p>
+    </div>
+    }
+
+    <p-dialog header="Edit Student" [(visible)]="displayEditDialog" [modal]="true" [style]="{width: '30vw'}">
+        <div class="flex flex-col gap-4 mt-2">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                <input pInputText type="text" [(ngModel)]="studentToEdit.name"
+                    class="w-full border border-gray-300 rounded-md p-2">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Age</label>
+                <input pInputText type="number" [(ngModel)]="studentToEdit.age"
+                    class="w-full border border-gray-300 rounded-md p-2">
+            </div>
+            <div class="flex justify-end gap-2 mt-4">
+                <p-button label="Cancel" severity="secondary" (onClick)="displayEditDialog = false"></p-button>
+                <p-button label="Save Changes" severity="success" (onClick)="saveEdit()"></p-button>
+            </div>
+        </div>
+    </p-dialog>
+
+</div>

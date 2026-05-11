@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_2\\models\\iticontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|solutionrelative:models\\iticontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_2\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_2\\repos\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|solutionrelative:repos\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_2\\repos\\entityrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|solutionrelative:repos\\entityrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_2\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_2\\mapconfig\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|solutionrelative:mapconfig\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_2\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_2\\dtos\\department\\updatedepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|solutionrelative:dtos\\department\\updatedepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_2\\dtos\\department\\createdepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|solutionrelative:dtos\\department\\createdepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_2\\dtos\\student\\displaystudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|solutionrelative:dtos\\student\\displaystudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|c:\\users\\dell\\desktop\\iti labs\\webapis\\lab_2\\dtos\\student\\updatestudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92C5CCF0-3451-D716-A538-BA23B1358B65}|Lab_2.csproj|solutionrelative:dtos\\student\\updatestudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-21T11:43:51.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\Repos\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repos\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\Repos\\UnitOfWork.cs",
+              "RelativeToolTip": "Repos\\UnitOfWork.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T11:12:03.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EntityRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\Repos\\EntityRepo.cs",
+              "RelativeDocumentMoniker": "Repos\\EntityRepo.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\Repos\\EntityRepo.cs",
+              "RelativeToolTip": "Repos\\EntityRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T11:11:16.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITIContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\Models\\ITIContext.cs",
+              "RelativeDocumentMoniker": "Models\\ITIContext.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\Models\\ITIContext.cs",
+              "RelativeToolTip": "Models\\ITIContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T08:39:56.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIBJwBgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T23:03:01.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateDepartmentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\DTOs\\Department\\CreateDepartmentDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Department\\CreateDepartmentDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\DTOs\\Department\\CreateDepartmentDTO.cs",
+              "RelativeToolTip": "DTOs\\Department\\CreateDepartmentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T23:02:41.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateDepartmentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\DTOs\\Department\\UpdateDepartmentDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Department\\UpdateDepartmentDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\DTOs\\Department\\UpdateDepartmentDTO.cs",
+              "RelativeToolTip": "DTOs\\Department\\UpdateDepartmentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T23:02:40.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DisplayStudentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\DTOs\\Student\\DisplayStudentDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Student\\DisplayStudentDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\DTOs\\Student\\DisplayStudentDTO.cs",
+              "RelativeToolTip": "DTOs\\Student\\DisplayStudentDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T22:43:09.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateStudentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\DTOs\\Student\\UpdateStudentDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Student\\UpdateStudentDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\DTOs\\Student\\UpdateStudentDTO.cs",
+              "RelativeToolTip": "DTOs\\Student\\UpdateStudentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T22:24:36.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T21:58:11.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MappingConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\MapConfig\\MappingConfig.cs",
+              "RelativeDocumentMoniker": "MapConfig\\MappingConfig.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\MapConfig\\MappingConfig.cs",
+              "RelativeToolTip": "MapConfig\\MappingConfig.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T21:47:27.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwBoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:37:02.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\iti labs\\WebApis\\Lab_2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwDEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T13:56:44.847Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

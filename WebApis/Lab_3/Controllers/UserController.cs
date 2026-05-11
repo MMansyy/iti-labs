@@ -1,0 +1,122 @@
+﻿using Lab_3.DTOs;
+using Lab_3.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+
+namespace Lab_3.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class UserController : ControllerBase
+    {
+
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly IConfiguration _config;
+
+        public UserController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IConfiguration config)
+        {
+            _userManager = userManager;
+            _signInManager = signInManager;
+            _config = config;
+        }
+
+
+        [HttpPost]
+        [Route("register")]
+        public async Task<IActionResult> Register([FromBody] RegisterDTO model)
+        {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
+            var isExist = _userManager.Users.FirstOrDefault(u => u.UserName == model.UserName);
+
+            if (isExist != null) return BadRequest("User already exists");
+
+            var user = new ApplicationUser
+            {
+                UserName = model.UserName,
+                FullName = model.FullName
+            };
+            Console.WriteLine($"UserName before create: '{user.UserName}'");
+            var result = await _userManager.CreateAsync(user, model.Password);
+
+            if (result.Succeeded)
+            {
+                var identityResult = await _userManager.AddToRoleAsync(user, "Student");
+
+                if (identityResult.Succeeded) return Ok("User created successfully");
+                else
+                {
+                    await _userManager.DeleteAsync(user);
+                    return BadRequest("Problem while creating user");
+                }
+            }
+            else
+            {
+                return BadRequest(result.Errors);
+            }
+        }
+
+        [HttpPost]
+        [Route("login")]
+        public async Task<IActionResult> Login(LoginDTO model)
+        {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+            var user = await _userManager.FindByNameAsync(model.UserName);
+            if (user == null) return BadRequest("User not found");
+            var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
+
+            if (!result.Succeeded) return BadRequest("Invalid credentials");
+
+            var roles = await _userManager.GetRolesAsync(user);
+
+            if (roles.Count == 0) return BadRequest("User has no roles");
+
+            List<Claim> claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, user.UserName),
+                new Claim(ClaimTypes.NameIdentifier, user.Id)
+            };
+
+            foreach (var role in roles)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, role));
+            }
+
+            var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+
+            var signCred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                claims: claims,
+                expires: DateTime.Now.AddHours(1),
+                signingCredentials: signCred
+                );
+
+            return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) });
+        }
+
+        [HttpGet("users")]
+        [Authorize]
+        public IActionResult GetUsers()
+        {
+            var users = _userManager.Users
+                .Select(u => new
+                {
+                    u.Id,
+                    u.UserName,
+                    u.FullName
+                })
+                .ToList();
+
+            return Ok(users);
+        }
+
+
+    }
+}

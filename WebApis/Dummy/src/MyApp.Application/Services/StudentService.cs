@@ -1,0 +1,52 @@
+using MyApp.Application.DTOs;
+using MyApp.Domain.Entities;
+using MyApp.Domain.Interfaces;
+
+namespace MyApp.Application.Services;
+
+// Contains application use-case logic for managing students.
+public sealed class StudentService : IStudentService
+{
+    private readonly IStudentRepository _studentRepository;
+
+    public StudentService(IStudentRepository studentRepository)
+    {
+        _studentRepository = studentRepository;
+    }
+
+    public async Task<IEnumerable<StudentDto>> GetAllStudents(CancellationToken cancellationToken = default)
+    {
+        var students = await _studentRepository.GetAllAsync(cancellationToken);
+        return students.Select(MapToDto).ToList();
+    }
+
+    public async Task<StudentDto?> GetStudentById(int id, CancellationToken cancellationToken = default)
+    {
+        var student = await _studentRepository.GetByIdAsync(id, cancellationToken);
+        return student is null ? null : MapToDto(student);
+    }
+
+    public async Task<StudentDto> CreateStudent(CreateStudentDto createStudentDto, CancellationToken cancellationToken = default)
+    {
+        ArgumentException.ThrowIfNullOrWhiteSpace(createStudentDto.Name);
+
+        var student = new Student
+        {
+            Name = createStudentDto.Name.Trim(),
+            Age = createStudentDto.Age
+        };
+
+        var createdStudent = await _studentRepository.AddAsync(student, cancellationToken);
+        return MapToDto(createdStudent);
+    }
+
+    private static StudentDto MapToDto(Student student)
+    {
+        return new StudentDto
+        {
+            Id = student.Id,
+            Name = student.Name,
+            Age = student.Age
+        };
+    }
+}

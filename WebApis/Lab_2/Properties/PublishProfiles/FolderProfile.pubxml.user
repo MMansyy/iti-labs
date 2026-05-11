@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\iis_lab</_PublishTargetUrl>
+    <History>True|2026-04-21T12:12:54.9641420Z||;True|2026-04-21T14:10:45.4906645+02:00||;False|2026-04-21T14:08:54.9266669+02:00||;False|2026-04-21T14:08:08.1718980+02:00||;False|2026-04-21T14:02:11.8658749+02:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

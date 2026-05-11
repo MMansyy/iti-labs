@@ -1,0 +1,14 @@
+using Microsoft.Extensions.DependencyInjection;
+using MyApp.Application.Services;
+
+namespace MyApp.Application;
+
+// Registers application-layer services with the dependency injection container.
+public static class DependencyInjection
+{
+    public static IServiceCollection AddApplication(this IServiceCollection services)
+    {
+        services.AddScoped<IStudentService, StudentService>();
+        return services;
+    }
+}

@@ -1,0 +1,36 @@
+﻿using AutoMapper;
+using Lab_2.DTOs.Department;
+using Lab_2.DTOs.Student;
+using Lab_2.Models;
+
+namespace Lab_2.MapConfig
+{
+    public class MappingConfig : Profile
+    {
+        public MappingConfig()
+        {
+            CreateMap<Student, DisplayStudentDTO>()
+                .ForMember(dest => dest.St_Id, opt => opt.MapFrom(src => src.StId))
+                .ForMember(dest => dest.St_Fname, opt => opt.MapFrom(src => src.StFname))
+                .ForMember(dest => dest.Dept_Name, opt => opt.MapFrom(src => src.Dept.DeptName))
+                .ForMember(dest => dest.Supervisor_Name, opt => opt.MapFrom(src => src.StSuperNavigation.StFname))
+                .ForMember(dest => dest.St_Address, opt => opt.MapFrom(src => src.StAddress));
+            CreateMap<CreateStudentDTO, Student>()
+                .ForMember(dest => dest.StId, opt => opt.MapFrom(src => src.StudentId))
+                .ForMember(dest => dest.StFname, opt => opt.MapFrom(src => src.StFname))
+                .ForMember(dest => dest.StLname, opt => opt.MapFrom(src => src.StLname))
+                .ForMember(dest => dest.DeptId, opt => opt.MapFrom(src => src.DeptId))
+                .ForMember(dest => dest.StAddress, opt => opt.MapFrom(src => src.StAddress))
+                .ForMember(dest => dest.StAge, opt => opt.MapFrom(src => src.StAge))
+                .ForMember(dest => dest.StSuper, opt => opt.MapFrom(src => src.SuperviorId));
+
+            CreateMap<Department, DisplayDepartmentDTO>()
+                .ForMember(dest => dest.StudentsCount, opt => opt.MapFrom(src => src.Students.Count));
+
+            CreateMap<CreateDepartmentDTO, Department>();
+
+            CreateMap<UpdateDepartmentDTO, Department>()
+                .ForAllMembers(opt => opt.Condition((src, dest, srcMember) => srcMember != null));
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\solid_case\\case_1_srp\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_1_srp\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|d:\\_courses\\solid\\project\\.net framework\\solid_cases_lab\\solid_case\\case_4_isp\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_4_isp\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\solid_case\\case_3_lsp\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_3_lsp\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\solid_case\\case_2_ocp\\paymentprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_2_ocp\\paymentprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\solid_case\\case_2_ocp\\drawing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_2_ocp\\drawing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\solid_case\\case_1_srp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_1_srp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\solid_case\\case_1_srp\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_1_srp\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Activity.cs",
+              "DocumentMoniker": "D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\SOLID_Case\\Case_4_ISP\\Activity.cs",
+              "RelativeDocumentMoniker": "SOLID_Case\\Case_4_ISP\\Activity.cs",
+              "ToolTip": "D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\SOLID_Case\\Case_4_ISP\\Activity.cs",
+              "RelativeToolTip": "SOLID_Case\\Case_4_ISP\\Activity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T08:56:14.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\SOLID_Case\\Case_3_LSP\\Rectangle.cs",
+              "RelativeDocumentMoniker": "SOLID_Case\\Case_3_LSP\\Rectangle.cs",
+              "ToolTip": "D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\SOLID_Case\\Case_3_LSP\\Rectangle.cs",
+              "RelativeToolTip": "SOLID_Case\\Case_3_LSP\\Rectangle.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T08:55:20.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentProcessor.cs",
+              "DocumentMoniker": "D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\SOLID_Case\\Case_2_OCP\\PaymentProcessor.cs",
+              "RelativeDocumentMoniker": "SOLID_Case\\Case_2_OCP\\PaymentProcessor.cs",
+              "ToolTip": "D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\SOLID_Case\\Case_2_OCP\\PaymentProcessor.cs",
+              "RelativeToolTip": "SOLID_Case\\Case_2_OCP\\PaymentProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:24:31.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Drawing.cs",
+              "DocumentMoniker": "D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\SOLID_Case\\Case_2_OCP\\Drawing.cs",
+              "RelativeDocumentMoniker": "SOLID_Case\\Case_2_OCP\\Drawing.cs",
+              "ToolTip": "D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\SOLID_Case\\Case_2_OCP\\Drawing.cs",
+              "RelativeToolTip": "SOLID_Case\\Case_2_OCP\\Drawing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:24:27.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\SOLID_Case\\Case_1_SRP\\Order.cs",
+              "RelativeDocumentMoniker": "SOLID_Case\\Case_1_SRP\\Order.cs",
+              "ToolTip": "D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\SOLID_Case\\Case_1_SRP\\Order.cs",
+              "RelativeToolTip": "SOLID_Case\\Case_1_SRP\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:24:18.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\SOLID_Case\\Case_1_SRP\\Employee.cs",
+              "RelativeDocumentMoniker": "SOLID_Case\\Case_1_SRP\\Employee.cs",
+              "ToolTip": "D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\SOLID_Case\\Case_1_SRP\\Employee.cs",
+              "RelativeToolTip": "SOLID_Case\\Case_1_SRP\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:24:15.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\SOLID_Case\\Case_1_SRP\\Book.cs",
+              "RelativeDocumentMoniker": "SOLID_Case\\Case_1_SRP\\Book.cs",
+              "ToolTip": "D:\\_Courses\\SOLID\\Project\\.Net Framework\\SOLID_Cases_Lab\\SOLID_Case\\Case_1_SRP\\Book.cs",
+              "RelativeToolTip": "SOLID_Case\\Case_1_SRP\\Book.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:24:09.111Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

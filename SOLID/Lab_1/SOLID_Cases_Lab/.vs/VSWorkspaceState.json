@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SOLID_Case",
+    "\\SOLID_Case\\Case_2_OCP\\Payment",
+    "\\SOLID_Case\\Case_2_OCP\\Shape",
+    "\\SOLID_Case\\Case_3_LSP",
+    "\\SOLID_Case\\Case_4_ISP",
+    "\\SOLID_Case\\Case_5_DIP"
+  ],
+  "SelectedNode": "\\SOLID_Case\\Case_5_DIP\\Worker.cs",
+  "PreviewInSolutionExplorer": false
+}

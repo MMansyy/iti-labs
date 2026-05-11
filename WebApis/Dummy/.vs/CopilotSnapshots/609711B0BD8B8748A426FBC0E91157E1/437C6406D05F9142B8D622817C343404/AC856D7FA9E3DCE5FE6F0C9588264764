@@ -1,0 +1,19 @@
+﻿using MyApp.Domain.Entities;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace MyApp.Domain.Interfaces;
+
+// Defines the student persistence contract used by the application layer.
+public interface IStudentRepository
+{
+    Task<Student?> GetByIdAsync(int id, CancellationToken cancellationToken = default);
+
+    Task<IEnumerable<Student>> GetAllAsync(CancellationToken cancellationToken = default);
+
+    Task<Student> AddAsync(Student student, CancellationToken cancellationToken = default);
+
+    void Update(Student student);
+
+    void Delete(Student student);
+}
